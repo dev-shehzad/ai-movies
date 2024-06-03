@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Outfit-Bold;
+  src: url(./styles/Outfit/static/Outfit-Bold.ttf);
+}
+@font-face {
+  font-family: Outfit-Regular;
+  src: url(./styles/Outfit/static/Outfit-Regular.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+@font-face {
+  font-family: Outfit-Bold;
+  src: url(./styles/Outfit/static/Outfit-Bold.ttf);
+}
+@font-face {
+  font-family: Outfit-Regular;
+  src: url(./styles/Outfit/static/Outfit-Regular.ttf);
+}
+
+
+.slick-arrow {
+  font-size: 24px;
+  color: #BBBCBC; /* Change the color as needed */
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+
+/* Add this to your styles */
+.custom-dots li button {
+width: 15px;
+height: 15px;
+background: white;
+border-radius: 50%;
+ /* Set the background color to white */
+}
+/* Flex8.css */
+
+/* Set dots color to white */
+.custom-dots li button {
+background-color: white;
+border: 2px solid #0070f3; /* Set border color to blue */
+}
+
+/* Set active dot color to blue */
+.custom-dots li.slick-active button {
+background-color: #0070f3;
+border: 1px solid white;
+}
+
+/* Hide smaller black dots */
+.custom-dots li button::before {
+font-size: 0;
+}
+
+
+/* Example CSS to change only the bullet color in Tailwind */
+.list-item-red::before {
+  content: "\2022"; /* Unicode character for a solid circle bullet */
+  color: blue;
+  font-size: 50px;
+  line-height: 28px  ;
+  margin-right: 8px;/* Change the color to your preferred color */
+}
+
+
+
+
+
+
+.fade-and-slide {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+}
+
+.fade-and-slide-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-slide-fade {
+  animation: slideFadeIn 3s ease-in-out both;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 3s ease-in-out both;
+} */

@@ -1,0 +1,862 @@
+{
+  "startseite": {
+    "startseite": "page One",
+    "intro": "INDUSTRIE-MARKTFÜHRER UND ÖFFENTLICHE VERWALTUNGEN SETZEN AUF UNSERE VIDEOERSTELLUNG:",
+    "tick1": "✓ 42% höhere Mitarbeiter Produktivität",
+    "tick2": "✓ 3x schnellere Prozesse",
+    "tick3": "✓ Sofortiger Start – mit Erfolgsgarantie"
+  },
+  "flextop": {
+    "heading1": "Von Input Text zu E-Learning Video",
+    "heading2": "Die effizienteste Art Unternehmens-Wissen zu erstellen",
+    "paragraph": "FAST AI Movies ist die einzige KI-Lösung für automatisiert erstellte individuelle E-Learnings - von Kollegen für Kollegen. Sie brauchen keine komplexen Skripte, sondern Ihre Mitarbeiter können vorhandene Dokumentationen / Beschreibungen dort in Minuten in interaktive E-Learnings verwandeln. Lernpsychologische Erkenntnisse sorgen für hohe Verständlichkeit.",
+    "button1": "Demovideo kostenlos erstellen",
+    "button2": "Wie funktioniert’s?"
+  },
+  "function": {
+    "howItWorks": "FUNKTIONSWEISE",
+    "quickSimpleEffective": "Schnell, einfach, effektiv",
+    "description": "Sie übermitteln die Corporate Design Vorgaben Ihrer Firma, laden einen Inputtext hoch und wählen den gewünschten Sprecher für die Vertonung Ihres Videos aus. Das Ergebnis: Ein maßgeschneidertes Schulungsvideo, das exakt Ihren Vorgaben entspricht.",
+    "tick1": "42% höhere Mitarbeiter Produktivität",
+    "tick2": "3x schnellere Prozesse",
+    "tick3": "Sofortiger Start – mit Erfolgsgarantie"
+  },
+
+  "features": {
+    "sectionTitle": "FEATURES",
+    "idealFeaturesTitle": "Welche Funktionen können Sie nutzen?",
+    "feature1Title": "Vielfältige Exportoptionen",
+    "feature1Description": "Laden Sie Trainings als MP4 herunter, nutzen Sie die LMS-kompatible Datei oder teilen Sie Ihre Inhalte direkt via URL. Zusätzlich steht ein PDF-Export für Animationen bereit.",
+    "feature2Title": "Nachbearbeitungen",
+    "feature2Description": "Aktualisieren Sie Ihre Videos jederzeit mit visuellen und textuellen Anpassungen, um Inhalte aktuell zu halten.",
+    "feature3Title": "Automatisierte Animationen",
+    "feature3Description": "Erstellen Sie aus Texteingaben automatisch Animationen, inklusive Diagramme und Icons.",
+    "feature4Title": "Diverse Sprachstile",
+    "feature4Description": "Geben Sie Inhalte stichpunktartig ein und wählen Sie aus verschiedenen Ausgabestilen, angepasst an Ihre Zielgruppe – von einfacher Sprache bis zu Fachjargon.",
+    "buttonTitle": "Mehr Features entdecken"
+  },
+  "Benefits": {
+    "BENEFITS_TITLE": "Welche Vorteile haben Sie?",
+    "BENEFITS_SUBTITLE": "BENEFIT",
+    "Benefit1": {
+      "Title": "Kurze Bereitstellungszeit",
+      "Description": "Unsere Software reduziert die Videoerstellungszeit um über 90% im Vergleich zu traditionellen Agenturen, wodurch Schulungen rasch umgesetzt werden."
+    },
+    "Benefit2": {
+      "Title": "Niedrige Kosten",
+      "Description": "Mit einer Kostenersparnis von über 85% gegenüber Agenturen ermöglicht unsere Lösung ein enormes Sparpotenzial bei der Videoproduktion."
+    },
+    "Benefit3": {
+      "Title": "Direkte & schnelle Inhaltserstellung",
+      "Description": "Nutzer können direkt aus bestehenden Dokumenten wie Datenblättern oder E-Mails heraus Inhalte erstellen, ohne komplexe Skripte verfassen zu müssen."
+    },
+    "Benefit4": {
+      "Title": "Hohes Verständnis",
+      "Description": "Unterstützt durch lernpsychologische Expertise, bietet unsere Plattform interaktives und leicht verständliches E-Learning."
+    },
+    "Benefit5": {
+      "Title": "DSGVO konform",
+      "Description": "Wir gewährleisten Datenschutz mit eigenen KI-Modellen und Serverstandort Frankfurt, unabhängig von OpenAl."
+    },
+    "Benefit6": {
+      "Title": "Individuell & zielgerichtet",
+      "Description": "Unsere Software ermöglicht maßgeschneiderte Trainingsvideos, die das Corporate Design integrieren und punktgenau die Zielgruppe ansprechen."
+    }
+  },
+  "Schrit": {
+    "Step1Title": "Corporate Design konfigurieren",
+    "Step1Description": "Wählen Sie ihre Farben und Schriftarten aus und laden Sie Ihr Logo hoch.",
+    "Step2Title": "Sie können vorhande Produktblätter, Compliance Vorschriften,",
+    "Step2Description": "Laden Sie vorhandene Produktblätter, Compliance Vorschriften usw. im Textfeld hoch. Sie können auch Ihre Prozessbeschreibungen und Stichpunkte eingeben. Screenshots können integriert werden.",
+    "Step3Title": "Weitere Einstellungen konfigurieren",
+    "Step3Description": "Wählen Sie Ihre bevorzugten Audioeinstellungen, Exportformate, Funktionen sowie Ihr bevorzugtes Template aus.",
+    "Step4Title": "Video generieren",
+    "Step4Description": "Das Video wird nachträglich von unserer KI-Software automatisiert generiert. Nach Fertigstellung erhalten Sie einen Download-Link per E-Mail.",
+    "Step5Title": "Video aktuell halten",
+    "Step5Description": "Sie können das E-Learning später einfach über den Editor aktualisieren. Ändern Sie nur die entsprechenden Textpassagen.",
+    "CreateDemoVideo": "Demovideo kostenlos erstellen"
+  },
+  "weCase": {
+    "null":{
+"Description":"a",
+"currently":"w"
+    },
+    "title": "USE CASES",
+    "subtitle": "Wo können Sie unsere Videos einsetzen?",
+    "description": "Unsere KI Software kann im Unternehmen für die verschiedensten Schulungszwecke verwendet werden, insbesondere eignet sich der Start in den folgenden Bereichen, um Ihr Unternehmen und Ihre Verwaltung zu entlasten:",
+    "compliance": {
+      "Description": "Sorgen Sie für Rechtskonformität in Ihrem Unternehmen. Mit unserer Technologie können Sie gesetzliche Anforderungen wie Geldwäschegesetze, Lieferkettengesetze und neue Technologien wie ChatGPT klar und prägnant vermitteln.",
+      "currently": "Aktuell genutzt in folgenden Industrien:",
+      "Industries": {
+        "Maschinenbau": "Maschinenbau",
+        "Elektrotechnik": "Elektrotechnik",
+        "Unternehmensberatungen": "Unternehmensberatungen"
+      },
+      "VideoUrl": "/flexvid/compliance.mp4"
+    },
+    "softwareschulungen": {
+      "Description": "Erleichtern Sie Ihren Mitarbeitern das Erlernen neuer Software. Mit Hilfe unserer Technologie erstellen Sie verständliche Schulungen für Unternehmenssoftware bis zum Intranet für  effizientere Abläufe.",
+      "currently": "Industries: Öffentliche Verwaltung, Maschinenbau, Gesundheit, Bildung",
+      "Industries": {
+        "Maschinenbau": "Maschinenbau",
+        "Elektrotechnik": "Elektrotechnik",
+        "Unternehmensberatungen": "Unternehmensberatungen"
+      },
+      "VideoUrl": "/flexvid/softwareschulungen.mp4"
+    },
+    "produktschulungen": {
+      "Description": "Verkürzen Sie die Einarbeitungszeit und steigern Sie die Produktkenntnis Ihrer Mitarbeiter. Mit Hilfe unserer Technologie erklären Sie Produkteigenschaften und -vorteile anschaulich für überzeugenden Kundenservice und Vertrieb.",
+      "currently": "Industries: Maschienenbau: Chemie",
+      "Industries": {
+        "Maschinenbau": "Maschinenbau",
+        "Elektrotechnik": "Elektrotechnik",
+        "Unternehmensberatungen": "Unternehmensberatungen"
+      },
+      "VideoUrl": "/flexvid/produktschulungen.mp4"
+    },
+    "prozessschulungen": {
+      "Description": "Optimieren Sie Geschäftsprozesse durch gezielte Schulungsvideos. Mit Hilfe unserer Technologie schaffen Sie Klarheit in Ihren Abläufen, sei es für Supportanfragen, Ticketsysteme oder Netzwerkprozesse.",
+      "currently": "Industries: Gesundheit, Öffentliche Verwaltung, Bildung, Unternehmensberatungen",
+      "Industries": {
+        "Maschinenbau": "Maschinenbau",
+        "Elektrotechnik": "Elektrotechnik",
+        "Unternehmensberatungen": "Unternehmensberatungen"
+      },
+      "VideoUrl": "/flexvid/prozessschulungen.mp4"
+    },
+    "InterneKommunikation": {
+      "Description": "Verbessern Sie die interne Kommunikation mit einprägsamen Videoinhalten. Mit Hilfe unserer Technologie bringen Sie Unternehmensevents oder Produktvorstellungen an Marketing und Vertrieb präzise auf den Punkt",
+      "currently": "Industries: Maschienenbau, Elektronik",
+      "Industries": {
+        "Maschinenbau": "Maschinenbau",
+        "Elektrotechnik": "Elektrotechnik",
+        "Unternehmensberatungen": "Unternehmensberatungen"
+      },
+      "VideoUrl": "/flexvid/prozessschulungen.mp4"
+    },
+    "Andere": {
+      "Description": " ",
+      "currently": " ",
+      "subclasses": {
+        "h1": "Bedienungsanleitungen:",
+        "p1": "Machen Sie komplexe Bedienvorgänge leicht verständlich – mit Hilfe unserer Technologie erstellen Sie animierte Anleitungen, die den korrekten Einsatz Ihrer Produkte unterstützen, intern wie für Kunden.",
+        "h2": "Bedienungsanleitungen:",
+        "p2": "Gewährleisten Sie Sicherheit am Arbeitsplatz. Mit Hilfe unserer Technologie informieren Sie über richtige Verhaltensweisen und Schutzmaßnahmen im Gesundheitsschutz, um das Wohlbefinden der Mitarbeiter zu fördern.",
+        "h3": "CSR-Schulungen:",
+        "p3": "Fördern Sie nachhaltiges und verantwortungsvolles Handeln in Ihrem Unternehmen. Mit Hilfe unserer Technologie erstellen Sie maßgeschneiderte Schulungen zu Corporate Social Responsibility, die Werte und Praktiken vermitteln und das Bewusstsein Ihrer Mitarbeiter schärfen."
+      },
+      "VideoUrl": "/flexvid/prozessschulungen.mp4"
+    }
+  },
+  "Case": {
+    "TITLE": "STATEMENTS",
+    "SUBTITLE": "Das sagen unsere Kunden",
+    "Box1": {
+      "Name": "Produktkommunikation",
+      "Des": "„Durch Schulungsvideos kann das Training der Mitarbeiter*innen skalierbar durchgeführt werden. Produkte in der Digitalisierung unterliegen einem schnellen ändernden Entwicklungszyklus, dass führt zu einem kontinuierlichen Schulungsbedarf. Durch das automatische Generieren von animierten Schulungsvideos ist es uns möglich, schnell und einfach Lerninhalte zu erstellen.“",
+      "Username": "Adrian Weiß",
+      "Userinfo": "Produkt Manager nexineer"
+    },
+    "Box2": {
+      "Name": "Software-Schulung",
+      "Des": "“In der Einführung von KIUnterstützung für Schulungsvideos sehen wir großes Potential um unseren Mitarbeitenden die immer komplexeren Fachanwendungen und Prozessabläufe zu erklären. Wir sind stolz darauf, die Vorreiterrolle in der Digitalisierung zu übernehmen und anderen Landkreisen zu zeigen, wie sie von dieser Technologie profitieren können.“",
+      "Username": "Christian Färber",
+      "Userinfo": " Neuburg - Schrobenhausen",
+      "userdone":"Digitalisierung",
+      "done":"sbeauftragter"
+    },
+    "Box3": {
+      "Name": "Eine weitere Fallstudie",
+      "Des": "Mit Hilfe von FAST AI Movies konnten wir unsere Mitarbeiter aus 17 verschiedenen Standorten und 6 Repräsentanzen weltweit effizient und einheitlich schulen und fit für unseren Messeauftritt machen.",
+      "Username": "Andreas Lehnig",
+      "Userinfo": "Leiter Marketing & Kommunikation bei Schattdecor SE"
+    }
+  },
+
+  "Press": {
+    "MORE_NEWS_BUTTON":"Mehr News",
+    "TITLE": "PRESSE",
+    "SUBTITLE": "Das sagen die Medien",
+    "con1": "EP 28 Learn from an entrepreneur: Florian Scherl, Founder at Fast AI Movies In dieser Episode trifft Antoine Leboyer Florian Scherl, Gründer von FAST AI Movies"
+  },
+  "Carousel": {
+    "Slide1": {
+      "Content": "In dieser Episode trifft Antoine Leboyer Florian Scherl, Gründer von FAST AI Movies",
+      "BlueText": "EP 28 Learn from an entrepreneur: Florian Scherl, Founder at Fast AI Movies"
+    },
+    "Slide2": {
+      "Content": "In der Mathestunde schnappt er seinen Laptop und geht…",
+      "BlueText": "Markteintritt mitten im Abi"
+    },
+    "Slide3": {
+      "Content": "Die meisten sind noch nicht mit der Schule fertig – aber ihr Name steht schon im Handelsregister…",
+      "BlueText": "20 unter 20: Diese jungen Startup-Gründer stehen vor dem Durchbruch"
+    },
+    "Slide4": {
+      "Content": "In dieser Episode trifft Antoine Leboyer Florian Scherl, Gründer von FAST AI Movies",
+      "BlueText": "EP 28 Learn from an entrepreneur: Florian Scherl, Founder at Fast AI Movies"
+    }
+  },
+  "Supporter": {
+    "TITLE": "SUPPORTER",
+    "SUBTITLE": "Unterstützt von"
+  },
+
+  "Actnow": {
+    "TITLE": "ACT NOW",
+    "SUBTITLE": "Bereit für eine digitale Transformation?",
+    "DESCRIPTION": "Machen Sie den richtigen Schritt für effizientere und engagierte Weiterbildung – mit nur einem Klick.",
+    "CONTACT_BUTTON": "Kontakt aufnehmen",
+    "FAQ_BUTTON": "Häufige Fragen"
+  },
+
+  "Dataprivacy": {
+    "TITLE": "DATA PRIVACY",
+    "SUBTITLE": "Wie gewährleisten wir die Sicherheit Ihrer Daten?",
+    "SECURE_TRANSMISSION": "Sichere Übertragung",
+    "SECURE_TRANSMISSION_DESC": "Die Daten werden verschlüsselt an einen deutschen Server übertragen.",
+    "VIDEO_STORAGE_LOCATION": "Speicherort des Videos",
+    "VIDEO_STORAGE_LOCATION_DESC": "Das Video ist sicher auf einem deutschen Server gespeichert.",
+    "DATA_ENTRY": "Dateneingabe",
+    "DATA_ENTRY_DESC": "Die Daten werden in unserer Webapp eingegeben.",
+    "INTERNAL_PROCESSING": "Interne Verarbeitung",
+    "INTERNAL_PROCESSING_DESC": "Die Daten werden durch eigene KI Modelle, ohne Aufruf der OpenAI API, datenschutzkonform verarbeitet.",
+    "SECURE_DISPLAY": "Sichere Darstellung",
+    "SECURE_DISPLAY_DESC": "Das Video wird in der Webapp sicher dargestellt."
+  },
+  "leftBoxData": [
+    {
+      "id": "compliance",
+      "title": "Titre 1",
+      "description": "Assurez la conformité légale dans l'entreprise. Avec l'aide de notre technologie, vous transmettez des exigences légales telles que la loi sur le blanchiment d'argent ou la loi sur la chaîne d'approvisionnement, ainsi que l'utilisation de nouvelles technologies comme ChatGPT, de manière claire et concise.",
+      "industries": [
+        { "name": "Génie mécanique", "iconUrl": "pageone/wecase/wecase.png" },
+        { "name": "Génie électrique", "iconUrl": "pageone/wecase/wecase.png" },
+        {
+          "name": "Cabinets de conseil en gestion",
+          "iconUrl": "pageone/wecase/wecase.png"
+        }
+      ],
+      "videoUrl": "/flexvid/vid.mp4"
+    },
+    {
+      "id": "softwareschulungen",
+      "title": "title2",
+      "description": "Assurez la conformité légale dans l'entreprise. Avec l'aide de notre technologie, vous transmettez des exigences légales telles que la loi sur le blanchiment d'argent ou la loi sur la chaîne d'approvisionnement, ainsi que l'utilisation de nouvelles technologies comme ChatGPT, de manière claire et concise.",
+      "industries": [
+        { "name": "Génie mécanique", "iconUrl": "pageone/wecase/wecase.png" },
+        { "name": "Génie électrique", "iconUrl": "pageone/wecase/wecase.png" },
+        {
+          "name": "Cabinets de conseil en gestion",
+          "iconUrl": "pageone/wecase/wecase.png"
+        }
+      ],
+      "videoUrl": "/flexvid/vid.mp4"
+    },
+    {
+      "id": "produktschulungen",
+      "title": "Produktschulungen",
+      "description": "Assurez la conformité légale dans l'entreprise. Avec l'aide de notre technologie, vous transmettez des exigences légales telles que la loi sur le blanchiment d'argent ou la loi sur la chaîne d'approvisionnement, ainsi que l'utilisation de nouvelles technologies comme ChatGPT, de manière claire et concise.",
+      "industries": [
+        { "name": "Génie mécanique", "iconUrl": "pageone/wecase/wecase.png" },
+        { "name": "Génie électrique", "iconUrl": "pageone/wecase/wecase.png" },
+        {
+          "name": "Cabinets de conseil en gestion",
+          "iconUrl": "pageone/wecase/wecase.png"
+        }
+      ],
+      "videoUrl": "/flexvid/vid.mp4"
+    },
+    {
+      "id": "prozessschulungen",
+      "title": "Prozessschulungen",
+      "description": "Assurez la conformité légale dans l'entreprise. Avec l'aide de notre technologie, vous transmettez des exigences légales telles que la loi sur le blanchiment d'argent ou la loi sur la chaîne d'approvisionnement, ainsi que l'utilisation de nouvelles technologies comme ChatGPT, de manière claire et concise.",
+      "industries": [
+        { "name": "Génie mécanique", "iconUrl": "pageone/wecase/wecase.png" },
+        { "name": "Génie électrique", "iconUrl": "pageone/wecase/wecase.png" },
+        {
+          "name": "Cabinets de conseil en gestion",
+          "iconUrl": "pageone/wecase/wecase.png"
+        }
+      ],
+      "videoUrl": "/flexvid/vid.mp4"
+    }
+  ],
+  "Industrien": {
+    "INDUSTRIEN_TITLE": "Industrien",
+    "Maschinenbau": {
+      "Title": "Maschinenbau",
+      "Description": "Im Maschinenbau Segment werden unsere E-Learnings verwendet, um Werksmitarbeiter über neue interne Software Anwendungen zu schulen, sowie die gesamte Belegschaft über neue Produktentwicklungen zu informieren."
+    },
+    "ÖffentlicheVerwaltung": {
+      "Title": "Öffentliche Verwaltung",
+      "Description": "Landkreise und Städte können mit Hilfe unserer E-Learnings bei der herausfordernden Digitalisierung Mitarbeiter und Beamte über neue Prozesse effektiv und nachhaltig informieren."
+    },
+    "FinanceInsurance": {
+      "Title": "Finanzen & Versicherungen",
+      "Description": "Sensible Compliance Richtlinien können dank effizienter E-Learnings sicher und nachhaltig an Mitarbeiter vermittelt werden. Zudem lassen sich komplexe Finanzprodukte und Versicherungsprozesse in einem einfachen Kontext darstellen."
+    },
+    "Unternehmensberatungen": {
+      "Title": "Unternehmensberatungen",
+      "Description": "Dank interaktiver E-Learnings können Unternehmensberatungen die Prozesse der Mandanten effizient dokumentieren und somit die Zusammenarbeit ausweiten."
+    },
+    "ViewCaseStudy": "Case Study Ansehen"
+  },
+
+  "Flexvid": {
+    "HEADLINE": "Die führende KI Software für Mitarbeiter Trainings",
+    "DESCRIPTION": "Generieren Sie hochqualitative E-Learnings in kurzer Zeit. Basierend auf einfachem Textinput erzeugt die Software ein lernpsychologisch optimiertes Schulungsvideo um ihre Mitarbeiter zu befähigen."
+  },
+
+  "Webapp": {
+    "TopHeading": "WEBAPP",
+    "SubHeading": "Flexible Videoproduktion und Bearbeitung"
+  },
+  "feature": {
+    "heading1": "FEATURES",
+    "heading3": "Umfangreiche Funktionen für ein ideales Ergebnis",
+    "feature1": {
+      "title": "Vielfältige Exportoptionen",
+      "description": "Laden Sie Trainings als MP4 herunter, nutzen Sie die LMS-kompatible Datei oder teilen Sie Ihre Inhalte direkt via URL. Zusätzlich steht ein PDF-Export für Animationen bereit."
+    },
+    "feature2": {
+      "title": "Automatisierte Animationen",
+      "description": "Laden Sie Trainings als MP4 herunter, nutzen Sie die LMS-kompatible Datei oder teilen Sie Ihre Inhalte direkt via URL. Zusätzlich steht ein PDF-Export für Animationen bereit."
+    },
+    "feature3": {
+      "title": "Diverse Sprachstile",
+      "description": "Geben Sie Inhalte stichpunktartig ein und wählen Sie aus verschiedenen Ausgabestilen, angepasst an Ihre Zielgruppe - von einfacher Sprache bis zu Fachjargon."
+    },
+    "feature4": {
+      "title": "Multiple-Choice-Quizze",
+      "description": "Laden Sie Trainings als MP4 herunter, nutzen Sie die LMS-kompatible Datei oder teilen Sie Ihre Inhalte direkt via URL. Zusätzlich steht ein PDF-Export für Animationen bereit."
+    },
+    "feature5": {
+      "title": "Eigenes Corporate Design",
+      "description": "Laden Sie Trainings als MP4 herunter, nutzen Sie die LMS-kompatible Datei oder teilen Sie Ihre Inhalte direkt via URL. Zusätzlich steht ein PDF-Export für Animationen bereit."
+    },
+    "feature6": {
+      "title": "Nachbearbeitungen",
+      "description": "Laden Sie Trainings als MP4 herunter, nutzen Sie die LMS-kompatible Datei oder teilen Sie Ihre Inhalte direkt via URL. Zusätzlich steht ein PDF-Export für Animationen bereit."
+    },
+    "feature7": {
+      "title": "LMS Integration",
+      "description": "Laden Sie Trainings als MP4 herunter, nutzen Sie die LMS-kompatible Datei oder teilen Sie Ihre Inhalte direkt via URL. Zusätzlich steht ein PDF-Export für Animationen bereit."
+    },
+    "feature8": {
+      "title": "Integration eigener Bilder",
+      "description": "Laden Sie Trainings als MP4 herunter, nutzen Sie die LMS-kompatible Datei oder teilen Sie Ihre Inhalte direkt via URL. Zusätzlich steht ein PDF-Export für Animationen bereit."
+    },
+    "feature9": {
+      "title": "Sprachen",
+      "description": "Laden Sie Trainings als MP4 herunter, nutzen Sie die LMS-kompatible Datei oder teilen Sie Ihre Inhalte direkt via URL. Zusätzlich steht ein PDF-Export für Animationen bereit."
+    },
+    "feature10": {
+      "title": "Untertitel",
+      "description": "Laden Sie Trainings als MP4 herunter, nutzen Sie die LMS-kompatible Datei oder teilen Sie Ihre Inhalte direkt via URL. Zusätzlich steht ein PDF-Export für Animationen bereit."
+    },
+    "feature11": {
+      "title": "Korrekte Aussprache",
+      "description": "Laden Sie Trainings als MP4 herunter, nutzen Sie die LMS-kompatible Datei oder teilen Sie Ihre Inhalte direkt via URL. Zusätzlich steht ein PDF-Export für Animationen bereit."
+    },
+    "feature12": {
+      "title": "Multiple-Choice-Quizze",
+      "description": "Laden Sie Trainings als MP4 herunter, nutzen Sie die LMS-kompatible Datei oder teilen Sie Ihre Inhalte direkt via URL. Zusätzlich steht ein PDF-Export für Animationen bereit."
+    }
+  },
+  "benefit": {
+    "heading1": "BENEFITS",
+    "heading3": "Optimale Performance für Ihr Unternehmen",
+    "benefitsList": "Kurze Bereitstellungszeit",
+    "benefitsList2": "Hohes Verständnis",
+    "benefitsList3": "Niedrige Kosten",
+    "buttonText": "Kostenloses Demovideo erstellen"
+  },
+  "numcircles": {
+    "heading1": "DATA PRIVACY",
+    "heading2": "Unser Prozess der Datensicherheit",
+    "title1": "Dateneingabe ",
+    "description1": "Bei uns beginnt der Datenschutz schon bei der Eingabe Ihrer Daten. Sie geben Ihre Daten direkt in unsere benutzerfreundliche Webapp ein. Wir legen großen Wert darauf, dass dieser erste Schritt sicher und intuitiv ist.",
+    "title2": "Sichere Übertragung",
+    "description2": "Sobald Sie Ihre Daten eingeben, werden diese verschlüsselt und sicher an einen Server in Deutschland übertragen. Diese Verschlüsselung garantiert, dass Ihre Daten während der Übertragung vor unerlaubten Zugriffen geschützt sind.",
+    "title3": "Interne Verarbeitung",
+    "description3": "Nach der Übertragung kommen unsere fortschrittlichen KI-Modelle zum Einsatz. Diese Modelle, die wir ohne die OpenAI API entwickelt haben, verarbeiten Ihre Daten streng datenschutzkonform. Ihre Privatsphäre ist bei uns in guten Händen.",
+    "title4": "Speicherort des Videos ",
+    "description4": "Die von uns erstellten Videos werden auf einem sicheren Server in Deutschland gespeichert. Dies stellt sicher, dass Ihre Daten stets unter der strengen deutschen Datenschutzgesetzgebung verbleiben.",
+    "title5": "Sichere Darstellung",
+    "description5": " Zum Abschluss wird das Video in unserer Webapp sicher dargestellt. Wir stellen sicher, dass die Anzeige des Videos ebenso sicher ist wie alle vorherigen Schritte. So können Sie sich darauf verlassen, dass Ihre Daten von Anfang bis Ende geschützt sind."
+  },
+  "about": {
+    "topstory": {
+      "title": "THE STORY",
+      "heading": "Die Entstehung von FAST AI Movies",
+      "des": "Unsere Reise begann mit der Vision unseres Gründers Florian Scherl, Mitarbeiterschulungen für jedes Unternehmen effizient zu gestalten. Bereits vor seinem Abitur im Mai 2022 setzte Florian den Grundstein für unser Unternehmen durch die offizielle Gründung. Unsere Erfolgsgeschichte nahm rasch Fahrt auf:",
+      "1": " JULI 2022",
+      "1des": "Wir machten auf uns aufmerksam, indem wir den renommierten Startup Teens Wettbewerb gewannen und Fördermittel von Al+Munich erhielten.",
+      "2": " SEPTEMBER 2022",
+      "2des": "Unser erster großer Durchbruch in der Industrie kam mit unserem ersten Kunden im Maschinenbau-Segment.",
+      "3": " DEZEMBER 2022",
+      "3des": "Unser Team wuchs auf fünf engagierte und talentierte Mitglieder.",
+      "4": "APRIL 2023",
+      "4des": "Der Start unserer Webapp markierte einen wichtigen Meilenstein in unserer Entwicklung.",
+      "5": " DEZEMBER 2022",
+      "5des": "Der Start unserer Webapp markierte einen wichtigen Meilenstein in unserer Entwicklung.",
+      "6": " JUNI 2023",
+      "6des": "Unsere Unternehmen wuchs auf 15 Mitglieder, jeder einzelne ein Experte auf seinem Gebiet.",
+      "7": "  JULI 2023",
+      "7des": "Wir erweiterten unsere KI-Software um E-Learnings auch für die Öffentliche Verwaltung zu generieren",
+      "8": "   SOMMER 2023",
+      "8des": "Wir erweiterten unsere KI-Software um E-Learnings auch für die Öffentliche Verwaltung zu generieren",
+      "9": " HERBST 2023",
+      "9des": "Unsere Präsenz auf bedeutenden Branchenveranstaltungen wie der Bits & Pretzels und dem Websummit zeigte unsere Ambitionen und unsere wachsende Bedeutung in der Branche. Zudem erweiterten wir unseren Einfluss in die Finanz- und Versicherungsindustrie."
+    },
+    "title": "ABOUT US",
+    "subtitle": "Das Team",
+    "content": "Unser engagiertes Team, angeführt von den Co-Foundern Florian Scherl, Philipp Gabriel und Oliver Großkloß, vereint die Leidenschaft für Innovation und das gemeinsame Ziel, durch den Einsatz von Künstlicher IntelligenzMitarbeiterschulungen effizienter und interaktiver zu gestalten.",
+    "name1": "FLORIAN SCHERL",
+    "profession1": "Gründer und Geschäftsführer",
+    "name2": "OLIVER GROßKLOß",
+    "profession2": "Fullstack Developer",
+    "name3": "PHILIPP GABRIEL",
+    "profession3": "Product Manager",
+    "name4": "ARNAV SINGH",
+    "name5": "DEJAN TODOROV",
+    "adv1": "GEORG KLUMPNER",
+    "adv2": "JOHANNES TIEMEYER",
+    "adv3": "JOHANNES TIEMEYER",
+    "join": "JOIN US",
+    "job": "Auf der Suche nach dem passenden Job?",
+    "description2": "Jetzt Teil eines dynamischen und wachsenden Startups werden!",
+    "buttonText": "Stellenanzeigen entdecken",
+    "about1": {
+      "name": "FLORIAN SCHERL",
+      "profession": "Gründer und Geschäftsführer"
+    },
+    "about2": {
+      "name": "OLIVER GROßKLOß",
+      "profession": "Product Manager"
+    },
+    "about3": {
+      "name": "PHILIPP GABRIEL",
+      "profession": "Product Manager"
+    },
+    "about4": {
+      "name": "ARNAV SINGH"
+    },
+    "about5": {
+      "name": "DEJAN TODOROV"
+    }
+  },
+  "caseStudies": {
+    "page": "4",
+    "title": "CASE STUDIES",
+    "subtitle": "So optimieren unsere Kunden ihre Schulungsprozesse",
+    "button": "Case Study ansehen",
+    "box1": {
+      "name": "Produktkommunikation",
+      "des": "consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea",
+      "username": "Adrian Weiß",
+      "userinfo": "Produkt Manager nexineer"
+    },
+    "box2": {
+      "name": "Softwareschulung",
+      "des": "Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea",
+      "username": "Christian Färber",
+      "userinfo": "Digitalisierungsbeauftragter Neuburg-Schrobenhausen"
+    },
+    "box3": {
+      "name": "Xxx",
+      "des": "consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea",
+      "username": "Andreas Lehnig",
+      "userinfo": "Head of Marketing & Communications bei Schattdecor SE"
+    }
+  },
+
+  "unterseite": {
+    "box1": {
+      "name": "Produktkommunikation",
+      "des": "consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea",
+      "username": "Adrian Weiß",
+      "userinfo": "Produkt Manager nexineer"
+    },
+    "box2": {
+      "name": "Softwareschulung",
+      "des": "Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea",
+      "username": "Christian Färber",
+      "userinfo": "Digitalisierungsbeauftragter Neuburg-Schrobenhausen"
+    },
+    "box3": {
+      "name": "Xxx",
+      "des": "consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea",
+      "username": "Andreas Lehnig",
+      "userinfo": "Head of Marketing & Communications bei Schattdecor SE"
+    },
+    "title": "LANDKREIS NEUBURG-SCHROBENHAUSEN:",
+    "subtitle": "KI-Unterstützte Schulungsvideos revolutionieren die Verwaltung",
+    "section1": {
+      "content": "Im Zeitalter der Digitalisierung sind effiziente Schulungsprozesse und die rascheAnpassung an neue Technologien von entscheidender Bedeutung. Der LandkreisNeuburg-Schrobenhausen hat in dieser Hinsicht eine Vorreiterrolle eingenommen,indem er auf innovative Lösungen setzt, um seine Mitarbeiter bestmöglich zu schulenund die Verwaltung zu digitalisieren. Die Zusammenarbeit mit FAST Al Movies, einem Anbieter von Kl-gesteuerten Schulungsvideos, ist ein Schlüsselteil dieses Vorhabens."
+    },
+    "section2": {
+      "contentLeft": "Das Landratsamt Neuburg-Schrobenhausen hat erkannt, dass die Automatisierung und Digitalisierung von Schulungsprozessen einen erheblichen Mehrwert für die Verwaltung bietet. Mit Hilfe der Software von FAST AI Movies werden hochqualitative Schulungsvideos für Prozessschulungen und interne Software-Schulungen erstellt. Diese Videos sind nicht nur kostengünstig, sondern auch äußerst effektiv. Ein bemerkenswertes Beispiel für die erfolgreiche Zusammenarbeit ist die Schulung für die Formularanwendung zur Prozesserfassung. Die Erstellung einer Schulung für dieses einfache, aber dennoch wichtige Verwaltungsaufgabe ermöglicht es den Mitarbeitern, Zeit zu sparen und sich effizienter auf ihre Aufgaben zu konzentrieren. Die Schulungsvideos sind interaktiv und beinhalten multiple-choice-Quizfragen, die sicherstellen, dass das erlernte Wissen verstanden wurde.",
+      "contentRight": "Die Zusammenarbeit mit dem Landkreis Neuburg- Schrobenhausen ist ein herausragendes Beispiel dafür, wie Kl-gesteuerte Schulungsvideos die digitale Transformation in der Verwaltung vorantreiben können. Unsere Technologie ermöglicht es, Schulungsinhalte auf einfache Textgrundlagen zu stützen und hochwirksame Schulungsvideos zu erstellen."
+    },
+    "section3": {
+      "image": "/5.png",
+      "content": "Florian Scherl, PDG de FAST AI Movies,"
+    },
+    "section4": {
+      "contentLeft": "Christian Färber, Digitalisierungsbeauftragter des Landkreises, ergänzt: „In der Einführung von KIUnterstützung für Schulungsvideos sehen wir großes Potential, um unseren Mitarbeitenden die immer komplexeren Fachanwendungen und Prozessabläufe zu erklären. Wir sind stolz darauf, die Vorreiterrolle in der Digitalisierung zu übernehmen und anderen Landkreisen zu zeigen, wie sie von dieser Technologie profitieren können.“ Die qualitativen Vorteile dieser innovativen Schulungsvideos sind vielfältig. Sie bieten einen konsistenten Schulungsinhalt, der für alle Mitarbeiter leicht zugänglich ist, und ermöglichen eine individuelle Zeiteinteilung für das Lernen. Dies führt zu einem gesteigerten Wissensniveau und einer verbesserten Mitarbeiterzufriedenheit. Außerdem lassen sich Schulungsergebnisse nachverfolgen, was die Evaluierung und kontinuierliche Verbesserung der Schulungsprozesse ermöglicht. Die erfolgreiche Kooperation zwischen dem Landkreis Neuburg-Schrobenhausen und FAST AI Movies ist ein Paradebeispiel dafür, wie die digitale Transformation die Verwaltung nachhaltig verändern kann. Diese Erfolgsgeschichte sollte als Inspiration für andere Landkreise dienen, die den Weg zur effizienten Schulung und Digitalisierung ihrer Verwaltungsprozesse einschlagen möchten.",
+      "contentRight": "La collaboration réussie entre le district de Neuburg-Schrobenhausen et FAST AI Movies est un exemple parfait de la manière dont la transformation numérique peut changer fondamentalement l'administration. Cette success story devrait servir d'inspiration pour d'autres districts qui souhaitent s'engager sur la voie d'une formation efficace et de la numérisation de leurs processus administratifs."
+    },
+    "section5": {
+      "title": "SEE MORE",
+      "subtitle": "Weitere Case Studies",
+      "buttonText": "Case Study ansehen",
+      "boxes": [
+        {
+          "id": 1,
+          "logo": "pageone/casestudy/1.png",
+          "name": "Communication de produit",
+          "description": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+          "userpic": "pageone/casestudy/man1.png",
+          "username": "Adrian Weiß",
+          "userinfo": "Chef de produit chez Nexineer"
+        },
+        {
+          "id": 2,
+          "logo": "pageone/casestudy/2.png",
+          "name": "Formation logicielle",
+          "description": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+          "userpic": "pageone/casestudy/man2.png",
+          "username": "Christian Färber",
+          "userinfo": "Responsable de la numérisation à Neuburg-Schrobenhausen"
+        }
+      ]
+    },
+    "section6": {
+      "title": "ACT NOW",
+      "subtitle": "Prêt pour votre propre histoire ?",
+      "content": "Faites le bon pas vers une formation plus efficace et engageante – en un seul clic.",
+      "button1": "Créer une vidéo de démonstration gratuitement",
+      "button2": "Nous contacter"
+    },
+
+    "act": {
+      "title": "ACT NOW",
+      "subtitle": "Bereit für einen eigene Story?",
+      "des": "Machen Sie den richtigen Schritt für effizientere und engagierte Weiterbildung – mit nur einem Klick.",
+      "button1": "Demovideo Kostenlos Erstellen",
+      "button2": "Kontakt aufnehmen"
+    }
+  },
+  "contact": {
+    "getInTouch": "GET IN TOUCH",
+    "sendUsEmail": "Senden Sie uns eine E-Mail",
+    "namePlaceholder": "Name*",
+    "emailPlaceholder": "E-Mail*",
+    "phonePlaceholder": "Telefonnummer",
+    "companyPlaceholder": "Unternehmen*",
+    "messagePlaceholder": "Nachricht*",
+    "addressHeading": "ADRESSE",
+    "companyName": "FAST AI Movies",
+    "streetAddress": "Zwieselster.3a",
+    "cityZip": "83278 Traunstein",
+    "mailHeading": "E-MAIL",
+    "emailAddress": "info@fast-ai-movies.com",
+    "socialHeading": "SOCIAL",
+    "privacyPolicy": "Ich habe die Datenschutzerklärung gelesen. Ich bin damit einverstanden, dass meine Angaben und Daten zur Beantwortung meiner Anfrage elektronisch erfasst und gespeichert werden. Hinweis: Sie können Ihre Einwilligung jederzeit für die Zukunft per E-Mail an info@fast-ai-movies.com widerrufen. *",
+    "submitButton": "Abschicken"
+  },
+  "faq": {
+    "faqHeading": "FAQ",
+
+    "faq1": {
+      "question": "Muss ich eine komplette Präsentation erstellen?",
+      "answer": " 'Nein, Sie müssen lediglich einen kurzen Text, der aus einigen Stichpunkten besteht erstellen. Die Präsentation erstellt unsere KI Software für Sie."
+    },
+    "faq2": {
+      "question": "Muss ich ein vollständiges Drehbuch schreiben?",
+      "answer": " 'Nein, Sie müssen lediglich einen kurzen Text, der aus einigen Stichpunkten besteht erstellen. Die Präsentation erstellt unsere KI Software für Sie."
+    },
+    "faq3": {
+      "question": "In welchen Sprachen können Schulungsvideos erstellt werden?",
+      "answer": " 'Nein, Sie müssen lediglich einen kurzen Text, der aus einigen Stichpunkten besteht erstellen. Die Präsentation erstellt unsere KI Software für Sie."
+    },
+    "faq4": {
+      "question": "Sind die Schulungsvideos interaktiv?",
+      "answer": " 'Nein, Sie müssen lediglich einen kurzen Text, der aus einigen Stichpunkten besteht erstellen. Die Präsentation erstellt unsere KI Software für Sie."
+    },
+    "faq5": {
+      "question": "Wie lange dauert die Videoerstellung?",
+      "answer": " 'Nein, Sie müssen lediglich einen kurzen Text, der aus einigen Stichpunkten besteht erstellen. Die Präsentation erstellt unsere KI Software für Sie."
+    }
+  },
+  "bottomcustom": {
+    "actNowHeading": "ACT NOW",
+    "questionHeading": "Ist eine Frage offen geblieben?",
+    "questionDescription": "Schreiben Sie uns gerne eine Nachricht!",
+    "askQuestionButton": "Frage stellen"
+  },
+  "jobspage": {
+    "joinUsHeading": "JOIN US",
+    "joinUsTitle": "Werde ein Teil von FAST AI Movies!",
+    "joinUsDescription": "FAST AI Movies is a highly innovative AI start-up that generates training videos for medium-sized companies automatically with the help of AI. The customer only provides FAST AI Movies with a short input script and everything else is generated by the AI Software. We empower our team to own their projects end to end and actively contribute throughout the product life cycle. To accelerate your growth path, you will work in a highly innovative tech start-up directly with the NLP lead and the founder.",
+    "applyNowButton": "Jetzt bewerben!",
+    "projectStudyTitle": "Project Study in Business Development(compliance/legal market segment)"
+  },
+  "JobDescription": {
+    "section1": {
+      "title": "Projektstudie in der Geschäftsentwicklung",
+      "subtitle": "(Compliance / Legal Marktsegment)",
+      "description": "FAST AI Movies sucht motivierte TUM-Studenten, die eine Projektstudie im Bereich Geschäftsentwicklung durchführen möchten (Entwicklung neuer Marktchancen für Schulungsvideos zur Einhaltung von Vorschriften), um unsere Videoerstellungs-KI-Software auf das nächste Level zu bringen!"
+    },
+    "section2": {
+      "title": "WARUM FAST AI MOVIES?",
+      "items1": {
+        "icon": "/startup.svg",
+        "title": "Wachsendes Startup",
+        "description": "mit spannenden Einblicken"
+      },
+      "items2": {
+        "icon": "/impact.svg",
+        "title": "Echten Impact haben",
+        "description": "in einem kleinen Team"
+      },
+      "items3": {
+        "icon": "/ki.svg",
+        "title": "Hoch innovative",
+        "description": "KI-Technologie"
+      }
+    },
+    "section3": {
+      "title": "DEINE ROLLE",
+      "points11": "Identifiziere ein neues Marktsegment (Schulung für Einhaltung / Rechtsschulung)",
+      "points12": "Verwende Design-Thinking-Methoden, um neue Marktchancen zu identifizieren.",
+      "points13": "Führe Marktforschung durch, um die Innovatoren zu identifizieren.",
+      "points14": "Recherchiere relevante Marktteilnehmer",
+      "points15": "Arbeite eigenständig und manage"
+    },
+    "section4": {
+      "title": "FÄHIGKEITEN UND EXPERTISE",
+      "points1": "Identifiziere ein neues Marktsegment (Schulung für Einhaltung / Rechtsschulung)",
+      "points2": "Verwende Design-Thinking-Methoden, um neue Marktchancen zu identifizieren.",
+      "points3": "Führe Marktforschung durch, um die Innovatoren zu identifizieren.",
+      "points4": "Recherchiere relevante Marktteilnehmer",
+      "points5": "Arbeite eigenständig und manage"
+    },
+    "section5": {
+      "title": "DEINE PROJEKTSTUDIE",
+      "points6": "Startdatum: so bald wie möglich",
+      "points7": "Regelmäßige 1:1-Gespräche mit dem CEO von FAST AI Movies",
+      "points8": "Wenn Sie Mitstudenten haben, holen Sie sie mit ins Boot!",
+      "points9": "Wir stellen eine grobe Struktur zur Verfügung, aber innerhalb dieser Struktur können Sie völlig unabhängig arbeiten.",
+      "points10": "Wir haben unser eigenes Büro im TUM-Inkubator in Garching. Wenn Sie möchten, können Sie größtenteils remote arbeiten, aber wir organisieren sowieso einige Bürotage, denn nichts ersetzt regelmäßige physische Treffen und den Austausch von Ideen."
+    }
+  },
+  "JoinComponent": {
+    "title": "TRETEN SIE UNS BEI",
+    "subtitle": "Werden Sie Teil von FAST AI Movies!",
+    "content": "Senden Sie uns gerne eine E-Mail mit Ihrem Lebenslauf sowie Ihrem GitHub-Konto und Ihrem bevorzugten Startdatum an jobs@fast-ai-movies.de!",
+    "supervisedBy": "Die Projektstudie wird betreut von Dr. Mathias Fromberger (Lehrstuhl für Unternehmens- und Immaterialgüterrecht, TUM School of Management): Mathias.fromberger@tum.de",
+    "lookingForward": "Wir freuen uns darauf, Sie an Bord zu haben!",
+    "websiteLink": "www.fast-ai-movies.de – LinkedIn",
+    "applyButton": "Jetzt bewerben!"
+  },
+  "SeeMore": {
+    "title": "MEHR SEHEN",
+    "subtitle": "Weitere Stellenausschreibungen",
+    "jobList1": {
+      "title": "Projektstudium in Geschäftsentwicklung",
+      "subtitle": "(Bereich Compliance/Recht)"
+    },
+    "jobList2": {
+      "title": "Projektstudium in Geschäftsentwicklung",
+      "subtitle": "(Bereich Compliance/Recht)"
+    },
+    "jobList3": {
+      "title": "Projektstudium in Geschäftsentwicklung",
+      "subtitle": "(Bereich Compliance/Recht)"
+    },
+    "jobList4": {
+      "title": "Projektstudium in Geschäftsentwicklung",
+      "subtitle": "(Bereich Compliance/Recht)"
+    },
+    "applyButton": "Alle Stellenausschreibungen"
+  },
+  "news": {
+    "news1": {
+      "name": "Die Zakunft gehort ihm: Das interview mit dem 19-jahrigen AI-Startup-Grunder Florian Scherl",
+      "p": "Florian Scherl telt in diesem video seine Erfahrungen erzahlt, wie er zur Grundung seines AL-Startups kam. Dieses Interview ist ein Muss fur alle Technologie begeisterten,  kunstlichen Imtelligenz erfarhren mochten."
+    },
+    "news2": {
+      "name": "Revolution of AI Video Generation with FAST AI Movies| AI E-Lab Success Stories",
+      "p": "Florian Scherl, ein 19-jahriger Grunder und CEO von Fast AI Movies, spricht uber seine Startup-Reise als junger und erfolgreicher Unternehmer mit Launrenz Sommerlad von Europas fuhrender Studenteninitiative TUM.ai."
+    },
+    "news3": {
+      "name": "AI meets EdTecH - Welche Rolle spielt Kunstliche Intelligenz in der Bildungsbranche?",
+      "p": "Zusammen mit Founders Foundation richtete KI.NRW am 15.Mai 2023 das erste KI Meetup NRW aus. Mit fuhrenden Expert*innen aus der EdTech-Branche ging es bie dem Netzwerk-Event,  fur Lehrende und Lernende ergeben konnen."
+    },
+    "news4": {
+      "name": "Die Zakunft gehort ihm: Das interview mit dem 19-jahrigen AI-Startup-Grunder Florian Scherl",
+      "p": "Florian Scherl telt in diesem video seine Erfahrungen erzahlt, wie er zur Grundung seines AL-Startups kam. Dieses Interview ist ein Muss fur alle Technologie begeisterten, welt der kunstlichen  erfarhren mochten."
+    },
+    "news5": {
+      "name": "Revolution of AI Video Generation with FAST AI Movies| AI E-Lab Success Stories",
+      "p": "Florian Scherl, ein 19-jahriger Grunder und CEO von Fast AI Movies, spricht uber seine Startup-Reise als junger und erfolgreicher Unternehmer mit Launrenz Sommerlad von Europas fuhrender Studenteninitiative TUM.ai."
+    },
+    "news6": {
+      "name": "AI meets EdTecH - Welche Rolle spielt Kunstliche Intelligenz in der Bildungsbranche?",
+      "p": "Zusammen mit Founders Foundation richtete KI.NRW am 15.Mai 2023 das erste KI Meetup NRW aus. Mit fuhrenden Expert*innen aus der EdTech-Branche ging es bie dem Netzwerk-Event,  und welche Chance  ergeben konnen."
+    },
+    "news7": {
+      "name": "Die Zakunft gehort ihm: Das interview mit dem 19-jahrigen AI-Startup-Grunder Florian Scherl",
+      "p": "Florian Scherl telt in diesem video seine Erfahrungen erzahlt, wie er zur Grundung seines AL-Startups kam. Dieses Interview ist ein Muss fur alle Technologie begeisterten,  kunstlichen Imtelligenz erfarhren mochten."
+    },
+    "news8": {
+      "name": "Revolution of AI Video Generation with FAST AI Movies| AI E-Lab Success Stories",
+      "p": "Florian Scherl, ein 19-jahriger Grunder und CEO von Fast AI Movies, spricht uber seine Startup-Reise als junger und erfolgreicher Unternehmer mit Launrenz Sommerlad von Europas fuhrender Studenteninitiative TUM.ai."
+    },
+    "news9": {
+      "name": "AI meets EdTecH - Welche Rolle spielt Kunstliche Intelligenz in der Bildungsbranche?",
+      "p": "Zusammen mit Founders Foundation richtete KI.NRW am 15.Mai 2023 das erste KI Meetup NRW aus. Mit fuhrenden Expert*innen aus der EdTech-Branche ging es bie dem Netzwerk-Event,  fur Lehrende und Lernende ergeben konnen."
+    },
+    "news10": {
+      " name": "Die Zakunft gehort ihm: Das interview mit dem 19-jahrigen AI-Startup-Grunder Florian Scherl",
+      " p": "Florian Scherl telt in diesem video seine Erfahrungen erzahlt, wie er zur Grundung seines AL-Startups kam. Dieses Interview ist ein Muss fur alle Technologie begeisterten,  kunstlichen Imtelligenz erfarhren mochten."
+    },
+    "news11": {
+      "name": "Revolution of AI Video Generation with FAST AI Movies| AI E-Lab Success Stories",
+      "p": "Florian Scherl, ein 19-jahriger Grunder und CEO von Fast AI Movies, spricht uber seine Startup-Reise als junger und erfolgreicher Unternehmer mit Launrenz Sommerlad von Europas fuhrender Studenteninitiative TUM.ai."
+    },
+    "news12": {
+      "name": "AI meets EdTecH - Welche Rolle spielt Kunstliche Intelligenz in der Bildungsbranche?",
+      "p": "Zusammen mit Founders Foundation richtete KI.NRW am 15.Mai 2023 das erste KI Meetup NRW aus. Mit fuhrenden Expert*innen aus der EdTech-Branche ging es bie dem Netzwerk-Event,  welche Chance sich daduranch  ergeben konnen."
+    },
+    "title": "FAST AI Movies in den Medien",
+    "articles": "Artikel",
+    "articleless": "Artikellos",
+    "podcast": "Podcast",
+    "address": "#28// Lernen von einem Unternehmer: Florian Scherl, Gründer von FAST AI Movies",
+    "epdesc": "In this week’s episode, Antoine meets Florian Scherl, founder of FAST AI Movies. Florian founded his company while being 17years old and still being a pupil. Florian takes us on his journey of how he learned coding identified the opportunity for FAST AI Movies, but also of the importance of intensely listening to what your customers want.",
+    "watchvid": "Video ansehen",
+    "founderinfo": "Florian Scherl, Gründer von FAST AI Movies",
+    "founderjourney": "Despite Florian’s age, he is advancing very fast in AI and business. At 13 years old he taught himself programming and then AI. In our chat today we talk about Florian’s unique journey into his passion for AI.",
+    "contentfounder": "FAST AI Movies | Präsentation | Campus Founder",
+    "last": "FAST Movies | Demo Day | KI Garage"
+  },
+  "blogTitle": "Blog",
+  "section1": {
+    "title": "Meisterhafte Methoden: Erfolgreiches Lernen im E-Learning",
+    "placeholder": "Platzhalter"
+  },
+  "section2": {
+    "title": "Digitales Wissen: Die Psychologie des Erfolgreichen E-Lernens",
+    "placeholder": "Platzhalter"
+  },
+  "section3": {
+    "title": "Platzhalter",
+    "placeholder": "Platzhalter"
+  },
+
+  "blog": "Blog",
+  "cont1": {
+    "title": "Meisterhafte Methoden: Erfolgreiches Lernen im E-Learning",
+    "placeholder": "Platzhalter"
+  },
+  "cont2": {
+    "title": "Digitales Wissen: Die Psychologie des erfolgreichen E-Learnings",
+    "placeholder": "Platzhalter"
+  },
+  "cont3": {
+    "title": "Platzhalter",
+    "placeholder": "Platzhalter"
+  },
+  "subscribe": {
+    "emailPlaceholder": "E-Mail-Adresse*",
+    "subscribeButton": "Abonnieren",
+    "privacyPolicy": "Mit Klick auf Abonnieren stimmen Sie unseren Datenschutzbestimmungen zu"
+  },
+  "learningIntroduction": {
+    "intro": "Die Art und Weise, wie wir lernen, hat sich im digitalen Zeitalter erheblich verändert, und E-Learning hat sich zu einer bedeutenden Bildungsform entwickelt. E-Learning bietet den Lernenden die Flexibilität, von überall aus zu lernen und sich in ihrem eigenen Tempo weiterzubilden. Um jedoch die Vorteile von E-Learning voll ausschöpfen zu können, sind effektive Lernstrategien von entscheidender Bedeutung. In dieser Diskussion werden wir einen Blick auf die besten Lernstrategien werfen, die speziell auf E-Learning zugeschnitten sind. Von der Selbstmotivation über das Zeitmanagement bis hin zur aktiven Interaktion mit dem Lernmaterial – wir werden erkunden, wie Lernende erfolgreich in der digitalen Bildungsumgebung navigieren können. Die Anwendung dieser Strategien kann den Unterschied zwischen einem oberflächlichen Verständnis und einem tiefen, nachhaltigen Lernen ausmachen und letztendlich den Erfolg in E-Learning-Kursen fördern."
+  },
+  " Selbsmotivation": " Selbsmotivation:",
+  "learningIntro": {
+    "cont": "Die Art und Weise, wie wir lernen, hat sich im digitalen Zeitalter erheblich verändert, und E-Learning hat sich zu einer bedeutenden Bildungsform entwickelt. E-Learning bietet den Lernenden die Flexibilität, von überall aus zu lernen und sich in ihrem eigenen Tempo weiterzubilden. Um jedoch die Vorteile von E-Learning voll ausschöpfen zu können, sind effektive Lernstrategien von entscheidender Bedeutung. In dieser Diskussion werden wir einen Blick auf die besten Lernstrategien werfen, die speziell auf E-Learning zugeschnitten sind. Von der Selbstmotivation über das Zeitmanagement bis hin zur aktiven Interaktion mit dem Lernmaterial – wir werden erkunden, wie Lernende erfolgreich in der digitalen Bildungsumgebung navigieren können. Die Anwendung dieser Strategien kann den Unterschied zwischen einem oberflächlichen Verständnis und einem tiefen, nachhaltigen Lernen ausmachen und letztendlich den Erfolg in E-Learning-Kursen fördern."
+  },
+  "rewardSystem": {
+    "heading": " Erfolgreiches Lernen im E-Learning",
+    "p4": "Interaktion",
+    "Selbstdisziplin": "Selbstdisziplin",
+    "Zeitmanacement:": "Zeitmanacement:",
+    "Aktives": "Aktives Lernen:",
+    "Abonnieren": "Abonnieren",
+    "text": "Es ist auch hilfreich, sich Belohnungen zu setzen, wenn Sieestimmte Meilensteine erreichen, um die Motivationaufrechtzuerhalten. Belohnen Sie sicl beispielsweise mit einerkurzen Pause, einem kleinen Leckerbissen oder einem Moment derEntspannung, nachdem Sie eine bestimmte Aufgabe abaeschlossenhaben",
+    "text2": "Die Selbstmotivation kann jedoch schwanken, und es gibt Zeiten, in denen Sie sich weniger motiviert fühlen. In solchen Momenten ist es wichtig, auf Disziplin zu setzen. Befolgen Sie Ihren Lernplan und setzen Sie klare Erwartungen an sich selbst. Selbst wenn die Motivation fehlt, kann die Disziplin dann beitraen kontinuierlich Fortschritte au erziolen",
+    "text3": "Schließlich kann die Einbeziehung von anderen Menschen, sei es in Form von Lernpartnern oder Mentoren, Ihre Selbstmotivation stärken. Teilen Sie Ihre Ziele und Fortschritte mit anderen, um sich gegenseitig zu unterstützen und motiviert zu bleiben. Selbstmotivation ist ein Schlüssel zum erfolgreichen E-Learning, da sie Ihnen hilft, auf Kurs zu bleiben und Ihre Lernziele zu erreichen.",
+    "text4": "Ein effektives Zeitmanagement ist von entscheidender Bedeutung, um das Beste aus Ihrem E-Learning-Erlebnis herauszuholen. Da E-Learning oft Ein effektives Zeitmanagement ist von entscheidender Bedeutung, um das Beste aus Ihrem E-Learning-Erlebnis herauszuholen. Da E-Learning oft flexibel ist und Sie Ihre Lernzeiten selbst festlegen können, ist es wichtig, diszipliniert und strukturiert vorzugehen.",
+    "text5": "Beginnen Sie damit, einen Lernplan zu erstellen, der die Kursinhalte, Ziele und Fristen berücksichtigt. Setzen Sie sich klare und realistische Lernziele für jeden Tag oder jede Woche, um den Fortschritt zu verfolgen. Vergessen Sie nicht, Pufferzeiten für unerwartete Ereignisse oder zusätzliche Übungen einzuplanen.",
+    "text6": "Nutzen Sie Technologie, um Ihr Zeitmanagement zu unterstützen. Kalender-Apps oder Aufgabenlisten können dabei helfen, Lernzeiten zu organisieren und Erinnerungen für wichtige Fristen einzurichten.",
+    "text7": "Darüber hinaus ist es sinnvoll, Ihre persönliche Produktivität zu berücksichtigen. Identifizieren Sie Ihre produktivsten Zeiten am Tag und planen Sie anspruchsvolle Aufgaben während dieser Zeitfenster ein. Pausen sind ebenfalls wichtig, um Ermüdung zu vermeiden und die Konzentration aufrechtzuerhalten",
+    "text8": "Schließlich ist Flexibilität ein wichtiger Aspekt des Zeitmanagements. Es ist in Ordnung, den Zeitplan anzupassen, wenn unerwartete Verpflichtunger auftauchen, solange Sie sicherstellen, dass Sie die verlorenen Lernzeiten später nachholen.",
+    "text9": "Ein gut durchdachtes Zeitmanagement ermöglicht es Ihnen, Ihren E-Learning-Kurs effizient zu bewältigen, Stress zu reduzieren und sicherzustellen. dass Sie genügend Zeit für das Verstehen und Vertiefen des Kursmaterials haben.",
+    "text10": "Aktives Lernen ist ein Schlüsselaspekt beim erfolgreichen Absolvieren von E-Learning-Kursen. Statt passiv Informationen aufzunehmen, werden Sie durch aktives Lernen zu einem aktiven Teilnehmer im Bildungsprozess. Dies kann Ihr Verständnis vertiefen und das Behalten von Wissen verbessern.",
+    "text11": "Eine bewährte Methode des aktiven Lernens ist das Stellen von Fragen. Fragen Sie sich selbst, was Sie bereits wissen, was Sie lernen möchten und wie neue Informationen in Ihre bestehenden Kenntnisse passen. Notieren Sie sich Fragen, die während des Lernens auftauchen, und versuchen Sie, diese zu beantworten.",
+    "text12": "Praktisches Anwenden des erlernten Wissens ist ebenfalls ein zentraler Aspekt des aktiven Lernens. Lösen Sie Übungen, führen Sie Experimente durch oder setzen Sie das Gelernte in praktische Anwendungen um, wenn dies möglich ist. Dies fördert nicht nur das Verständnis, sondern stärkt auch die praktischen Fähigkeiten.",
+    "text13": "Das aktive Lernen erfordert auch, dass Sie das Material in Ihre eigenen Worte fassen und Zusammenfassungen erstellen. Dies zwingt Sie dazu, das Gelernte zu verarbeiten und zu organisieren, was das Behalten erleichtert.",
+    "text14": "Insgesamt trägt aktives Lernen dazu bei, dass Sie nicht nur informationen aufnehmen, sondern sie tatsächlich verstehen und anwenden können. Dies fördert nachhaltiges Lernen und ermöglicht es ihnen, das Gelernte in Ihrem beruflichen und persönlichen Leben anzuwenden.",
+    "text15": "Interaktion spielt eine herausragende Rolle in E-Learning, da sie den Lernprozess bereichern und vertiefen kann. Durch die Interaktion mit anderenLernenden, Lehrern und dem Kursmaterial können Sie ein tieferes Verständnis entwickeln und von verschiedenen Perspektiven profitieren.",
+    "text16": "Eine der häufigsten Formen der Interaktion in E-Learning-Umgebungen sind Online-Diskussionsforen oder Chatrooms. Hier können Sie Fragen stellen, Ansichten austauschen und von den Erfahrungen anderer profitieren. Diese Interaktion fördert nicht nur das Verständnis, sondern schafft auch ein Gefühl der Gemeinschaft und des Lernens in einer Gruppe.",
+    "text17": "Die Interaktion mit Lehrern oder Tutoren ist ebenfalls entscheidend. Nutzen Sie die zur Verfügung stehenden Kommunikationsmittel, um Klarstellungen zu erhalten und Feedback zu erhalten. Lehrer können wertvolle Einblicke und zusätzliche Ressourcen bieten, um Ihren Lernerfolg zu unterstützen.",
+    "text18": "Die Interaktion mit dem Kursmaterial selbst sollte nicht übersehen werden. Aktive Teilnahme durch das Lösen von Übungen, Quizfragen und praktischen Aufgaben vertieft ihr Verständnis und ermöglicht es ihnen, Ihr Wissen anzuwenden.",
+    "text19": "Wenn möglich, bilden Sie auch Lerngruppen, um gemeinsam zu arbeiten und voneinander zu lernen. Gemeinsames Studieren, Diskutieren und Erklären des Gelernten kann dazu beitragen, Lücken im Verständnis zu schließen und verschiedene Perspektiven zu erhalten.",
+    "text20": "Insgesamt fördert die Interaktion in E-Learning-Umgebungen den Wissensaustausch, erhöht die Motivation und erleichtert das Verständnis komplexer Themen. Es ist wichtig, diese Möglichkeiten zur Interaktion voll auszuschöpfen, um das Beste aus Ihrem E-Learning-Erlebnis herauszuholen.",
+    "text21": "Selbstdisziplin ist eine unverzichtbare Eigenschaft für jeden, der erfolgreich E-Learning-Kurse absolvieren möchte. In einer Umgebung, in der Sie weitgehend selbstgesteuert lernen, sind Sie Ihr eigener Lehrer und müssen die Verantwortung für Ihren Fortschritt übernehmen. Selbstdisziplin hilft Ihnen, auf Kurs zu bleiben und Ihre Lernziele zu erreichen.",
+    "text22": "Selbst disziplin bedeutet, klare Erwartungen an sich selbst zu setzen und diese zu erfüllen, auch wenn niemand anderes zuschaut. Dies kann bedeuten. dass Sie sich an einen Lernplan halten, unabhängig davon, ob Sie sich gerade motiviert fühlen oder nicht. Es erfordert die Fähigkeit, Ablenkungen zu minimieren und sich auf die Aufaaben zu konzentrieren.",
+    "text23": "Es ist auch wichtig, sich bewusst zu machen, dass Selbstdisziplin nicht bedeutet, sich übermäßig zu überfordern. Setzen Sie realistische Ziele und achten Sie darauf, sich selbst ausreichend Pausen und Erholungszeiten zu gönnen, um Ermüdung zu vermeiden.",
+    "text24": "Selbstdisziplin umfasst auch die Fähigkeit, sich selbst zu überwachen und anzupassen. Wenn Sie feststellen, dass Sie von Ihrem Plan abweichen oder Schwierigkeiten haben, sich zu konzentrieren, sollten Sie in der Loge sein, geeignete Maßnahmen zu ergreifen, um wieder auf Kurs zu kommen.",
+    "text25": "Insgesamt ist Selbstdisziplin der Schlüssel, um die Selbstverantwortung zu übernehmen, die im E-Learning erforderlich ist. Es hilft Ihnen, Ihre Zeit effizient zu nutzen, Ihre Lernziele zu erreichen und letztendlich das Wissen und die Fähigkeiten zu erwerben, die Sie sich erhoffen.",
+    "text26": "In der digitalen Ära, in der E-Learning eine immer wichtigere Rolle spielt, sind die richtigen Lernstrategien der Schlüssel zum Erfolg. Wir haben gesehen, wie Selbstmotivation, effektives Zeitmanagement, aktives Lernen und die Förderung von Interaktion in E-Learning-Kursen entscheidend sind. Diese Strategien ermöglichen es den Lernenden, ihr volles Potenzial auszuschöpfen, Wissen zu vertiefen und Fähigkeiten zu entwickeln, die in der modernen Welt von unschätzbarem Wert sind.",
+    "text27": "E-Learning bietet eine Weit voller Chancen für lebenslanges Lernen und berufliche Weiterentwicklung. Die Anwendung dieser Lernstrategien wird nicht nur den Lernerfolg steigern, sondern auch das Selbstvertrauen stärken, die Fähigkeit zur Selbstregulierung verbessern und letztendlich eine erfüllendere Bildungserfahrung bieten. Wir ermutigen alle, die sich für E-Learning entscheiden, diese Strategien aktiv anzuwenden und kontinuierlich zu perfektionieren, um die Türen zu Wissen und beruflicher Entwicklung weit offen zu halten. Mit Selbstmotivation, effizientem Zeitmanagement und einer aktiven Lernhaltung können Sie die Welt des E-Learning voll und ganz erkunden und Ihre Bildungsziele erreichen.",
+    "text28": "Mit FAST Al Movies haben wir eine KI SaaS entwickelt, die genau solche Mitarbeiterschulungen in einer spannenden Art und Weise mit Hilfe von anschaulichen Schulungsvideos aufbereitet.",
+    "text29": "Mit klicken auf Abonnieren stimmen Sie unseren Datenschutzbestimmungen zu"
+  },
+  "header": {
+    "companyname": "Ihr Unternehmen",
+    "openmainmenu": "Hauptmenü öffnen",
+    "buttontext": "Demovideo kostenlose erstaellen",
+    "closemenu": "Menü schließen",
+    "menus": {
+      "1": "Produkt",
+      "2": "Fallstudien",
+      "3": "Über Uns",
+      "4": "Kontakt",
+      "5": "FAQ"
+    }
+  },
+
+  "footer": {
+    "quickFind": "Schnell Finden",
+    "caseStudies": "Case Studies",
+    "aboutUs": "Über uns",
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "additional": "Weiterführende Infos",
+    "faq": "FAQ",
+    "jobs": "Jobs",
+    "social": "Social",
+    "news": "News",
+    "blog": "Blog",
+    "dontMiss": "Nichts mehr verpassen!",
+    "subscribeNewsletter": "Registrieren Sie sich für unseren Newsletter!",
+    "emailPlaceholder": "E-Mail-Adresse*",
+    "subscriptionNote": "Mit klicken auf Abonnieren stimmen Sie unseren Datenschutzbestimmungen zu",
+    "subscribeButton": "Abonnieren"
+  },
+
+  "languages": {
+    "english": "Englisch",
+    "german": "Deutsch"
+  }
+}
