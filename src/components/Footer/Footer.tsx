@@ -3,14 +3,14 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa6";
 import { BsSend } from "react-icons/bs";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { MdLanguage } from "react-icons/md";
+
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
   useEffect(() => {
     const storedLanguage = localStorage.getItem("selectedLanguage");
 
-    const setLanguage = (language) => {
+    const setLanguage = (language: string) => {
       if (i18n.language !== language) {
         i18n.changeLanguage(language);
         localStorage.setItem("selectedLanguage", language);

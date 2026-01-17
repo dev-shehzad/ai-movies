@@ -1,8 +1,19 @@
 // Case.tsx
 
-import { wrap } from "framer-motion";
 import React from "react";
 import { useTranslation } from "react-i18next";
+
+interface CaseItem {
+  id: number;
+  logo: string;
+  name: string;
+  des: string;
+  userpic: string;
+  username: string;
+  userinfo: string;
+  userdone?: string;
+  done?: string;
+}
 
 // Case component
 const Case: React.FC = () => {
@@ -10,7 +21,7 @@ const Case: React.FC = () => {
   const { t } = useTranslation();
 
   // Data for case study boxes
-  const box = [
+  const box: CaseItem[] = [
     {
       id: 1,
       logo: "/pageone/casestudy/1.png",
@@ -95,8 +106,8 @@ const Case: React.FC = () => {
                   {/* User Info */}
                   <p className="text-sm break-words whitespace-pre-wrap max-md:text-mf font-[Outfit-Regular] leading-7 max-laptop:text-[15px] max-laptop:leading-4 max-md:leading-5 max-md:text-start">
                     <div className="flex flex-wrap gap-0">
-                     <p>{item.userdone}</p> 
-                     <p className=""> {item.done}</p>
+                      <p>{item.userdone}</p>
+                      <p className=""> {item.done}</p>
                     </div>
                     {item.userinfo}
                   </p>

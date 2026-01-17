@@ -13,7 +13,8 @@ const News = () => {
   const videoSectionRef = useRef(null);
 
   // Function to scroll to a specific section
-  const scrollToSection = (ref) => {
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+  const scrollToSection = (ref: any) => {
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
   // Data for news articles

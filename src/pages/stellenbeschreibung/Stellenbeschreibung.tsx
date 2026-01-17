@@ -23,6 +23,12 @@ const Stellenbeschreibung = () => {
     },
   ];
 
+  interface Section {
+    title: string;
+    description?: string;
+    imageSrc?: string;
+  }
+
   const renderSection = (section: Section) => (
     <div
       className="flex py-[20px] max-md:py-[0px] items-center gap-[30px] max-md:gap-[15px]"
@@ -48,7 +54,12 @@ const Stellenbeschreibung = () => {
   // WHY FAST AI MOVIES?
 
   // Roles
-  const RolsSections = [
+  interface RoleSection {
+    title: string;
+    points: string[];
+  }
+
+  const RolsSections: RoleSection[] = [
     {
       title: `${t("JobDescription.section3.title")}`,
       points: [
@@ -81,7 +92,7 @@ const Stellenbeschreibung = () => {
     },
   ];
 
-  const renderList = (text) => (
+  const renderList = (text: string) => (
     <li className="list-item-red flex" key={text}>
       <p className="font-[Outfit-Regular] text-left text-sm max-tab:w-auto max-md:text-mf max-laptop:text-mf max-md:text-start">
         {text}
@@ -89,7 +100,7 @@ const Stellenbeschreibung = () => {
     </li>
   );
 
-  const renderSec = (section) => (
+  const renderSec = (section: RoleSection) => (
     <div
       className="w-[100%] p-8 shadow-md bg-light100 rounded-[10px] flex flex-col gap-[30px]"
       key={section.title}

@@ -6,7 +6,7 @@ const Faq = () => {
   const { t } = useTranslation();
 
   // State to track the active question and arrow direction
-  const [activeQuestion, setActiveQuestion] = useState(null);
+  const [activeQuestion, setActiveQuestion] = useState<number | null>(null);
   const [arrowUp, setArrowUp] = useState(false);
 
   // Array containing FAQ data with questions and answers
@@ -39,7 +39,7 @@ const Faq = () => {
     // Add more question-answer pairs as needed
   ];
 
-  const handleQuestionClick = (index) => {
+  const handleQuestionClick = (index: number) => {
     setActiveQuestion(activeQuestion === index ? null : index);
     setArrowUp(!arrowUp);
   };
@@ -56,11 +56,9 @@ const Faq = () => {
             {faqData.map((faq, index) => (
               <div
                 key={index}
-                className={`question py-6 px-6 ${
-                  activeQuestion === index ? "bg-light200" : ""
-                } ${index === 0 ? "rounded-t-[10px]" : ""} ${
-                  index === faqData.length - 1 ? "rounded-b-[10px]" : ""
-                } cursor-pointer`}
+                className={`question py-6 px-6 ${activeQuestion === index ? "bg-light200" : ""
+                  } ${index === 0 ? "rounded-t-[10px]" : ""} ${index === faqData.length - 1 ? "rounded-b-[10px]" : ""
+                  } cursor-pointer`}
                 onClick={() => handleQuestionClick(index)}
               >
                 <div className="flex items-center justify-between max-tab:items-start max-tab:justify-between">
@@ -68,11 +66,11 @@ const Faq = () => {
                     {faq.question}
                   </p>
                   <div className=" flex items-end justify-end">
-                  {activeQuestion === index ? (
-                    <AiOutlineUp className="text-primary cursor-pointer text-[20px] hidden max-tab:block mt-1" />
-                  ) : (
-                    <AiOutlineDown className="text-primary cursor-pointer text-[20px] hidden max-tab:block max-md:mt-1" />
-                  )}
+                    {activeQuestion === index ? (
+                      <AiOutlineUp className="text-primary cursor-pointer text-[20px] hidden max-tab:block mt-1" />
+                    ) : (
+                      <AiOutlineDown className="text-primary cursor-pointer text-[20px] hidden max-tab:block max-md:mt-1" />
+                    )}
                   </div>
                 </div>
                 {activeQuestion === index && (

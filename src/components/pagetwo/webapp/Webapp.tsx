@@ -78,7 +78,7 @@ const Schrit = () => {
   //   },
   // ];
 
-  const handleStepClick = (index) => {
+  const handleStepClick = (index: number) => {
     setSelectedStep(index);
   };
 
@@ -101,9 +101,8 @@ const Schrit = () => {
                   {steps.map((step, index) => (
                     <React.Fragment key={index}>
                       <div
-                        className={`ico w-[79px] h-[79px] max-laptop:w-[60px] max-laptop:h-[60px] rounded-[50%] bg-${
-                          index === selectedStep ? "primary" : step.color
-                        } text-light400 flex items-center justify-center text-lg p-4 font-bold`}
+                        className={`ico w-[79px] h-[79px] max-laptop:w-[60px] max-laptop:h-[60px] rounded-[50%] bg-${index === selectedStep ? "primary" : step.color
+                          } text-light400 flex items-center justify-center text-lg p-4 font-bold`}
                         onClick={() => handleStepClick(index)}
                         style={{ opacity: selectedStep === index ? 1 : 0.5 }}
                       >
@@ -111,13 +110,11 @@ const Schrit = () => {
                       </div>
                       {index < steps.length - 1 && (
                         <div
-                          className={`line w-[2px] ${
-                            index === selectedStep
+                          className={`line w-[2px] ${index === selectedStep
                               ? "h-[180px] max-md:h-[85px] max-laptop:h-[80px]"
                               : "h-[46px] max-laptop:h-[30px]"
-                          } bg-${
-                            index === selectedStep ? "primary" : step.color
-                          }`}
+                            } bg-${index === selectedStep ? "primary" : step.color
+                            }`}
                         ></div>
                       )}
                     </React.Fragment>

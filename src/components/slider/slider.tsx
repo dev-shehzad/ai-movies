@@ -10,7 +10,7 @@ import { FaChevronRight } from "react-icons/fa";
 // ImageSlider component
 const ImageSlider = () => {
   // Reference to the Slider component
-  const sliderRef = useRef(null);
+  const sliderRef = useRef<Slider | null>(null);
 
   // Settings for the react-slick Slider component
   const settings = {
@@ -84,7 +84,8 @@ const ImageSlider = () => {
       }
     };
 
-    const listElement = slider?.innerSlider?.list;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const listElement = (slider as any)?.innerSlider?.list;
 
     if (listElement) {
       listElement.addEventListener("mouseenter", handleSliderInteraction);

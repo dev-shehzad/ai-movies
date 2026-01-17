@@ -1,5 +1,5 @@
-import React from "react";
-import { GoArrowRight } from "react-icons/go";
+
+
 
 const Casestudy = () => {
   const box = [

@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { FaPlayCircle } from "react-icons/fa";
 import { FaPauseCircle } from "react-icons/fa";
@@ -6,12 +6,12 @@ import { FaPauseCircle } from "react-icons/fa";
 const Flexvid = () => {
   // Access translation function
   const { t } = useTranslation();
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [showControls, setShowControls] = useState(true);
 
   useEffect(() => {
-    let timeoutId;
+    let timeoutId: ReturnType<typeof setTimeout>;
 
     const handleMouseMove = () => {
       // Show controls on mouse move
@@ -28,25 +28,31 @@ const Flexvid = () => {
 
     // Attach event listener to the video container
     const videoContainer = document.querySelector(".video-container");
-    videoContainer.addEventListener("mousemove", handleMouseMove);
+    if (videoContainer) {
+      videoContainer.addEventListener("mousemove", handleMouseMove);
+    }
 
     // Cleanup function to remove event listener
     return () => {
-      videoContainer.removeEventListener("mousemove", handleMouseMove);
+      if (videoContainer) {
+        videoContainer.removeEventListener("mousemove", handleMouseMove);
+      }
     };
   }, []);
 
   const handlePlayPause = () => {
     const video = videoRef.current;
-    if (isPlaying) {
-      video.play();
-    } else {
-      video.pause();
-    }
-    setIsPlaying(!isPlaying);
+    if (video) {
+      if (isPlaying) {
+        video.play();
+      } else {
+        video.pause();
+      }
+      setIsPlaying(!isPlaying);
 
-    // Show controls when play/pause button is clicked
-    setShowControls(true);
+      // Show controls when play/pause button is clicked
+      setShowControls(true);
+    }
   };
 
   return (

@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Jobs from "./pages/jobs/Jobs";
 import Contact from "./pages/contact/Contact";
 import Blog from "./pages/blog/Blog";
-import Blog2 from "./pages/blog-1/blog-1";
+import Blog2 from "./pages/blog-1/Blog-1";
 import Startseite from "./pages/startseite/Startseite";
 import Unterseite from "./pages/unterseite/Unterseite";
 import Faqs from "./pages/faq/Faq";

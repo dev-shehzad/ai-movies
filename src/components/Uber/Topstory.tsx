@@ -21,13 +21,12 @@ const SlideInItem: React.FC<SlideInItemProps> = ({
     transitionDelay: `${delay}ms`,
   };
 
-  const transformClass = `transform transition-transform ease-out duration-1000 ${
-    inView
+  const transformClass = `transform transition-transform ease-out duration-1000 ${inView
       ? "translate-x-0 opacity-100"
       : direction === "left"
-      ? "-translate-x-full opacity-0"
-      : "translate-x-full opacity-0"
-  }`;
+        ? "-translate-x-full opacity-0"
+        : "translate-x-full opacity-0"
+    }`;
 
   return (
     <div ref={ref} style={wrapperStyle} className={transformClass}>
@@ -39,11 +38,7 @@ const SlideInItem: React.FC<SlideInItemProps> = ({
 
 const Topstory = () => {
   const { t } = useTranslation();
-  const topStories = [
-    { title: t("about.topstory.1"), description: t("about.topstory.1des") },
-    { title: t("about.topstory.2"), description: t("about.topstory.2des") },
-    // Add more top stories as needed
-  ];
+
   return (
     <div className="relative w-full m-auto">
       <div className="overflow-hidden bg-light100 w-full lg:flex-row flex flex-col  items-center justify-center py-[80px] max-md:py-[30px] px-[80px] max-tab:px-[40px] max-laptop:px-[80px] max-md:px-[30px] gap-[4%] relative">

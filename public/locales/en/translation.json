@@ -34,14 +34,15 @@
     "CreateDemoVideo": "Create a demo video for free"
   },
   "weCase": {
-    "null":{
-      "Description":"v",
-      "currently":"w"
-          },
+    "null": {
+      "Description": "v",
+      "currently": "w"
+    },
     "title": "Case Studies",
     "subtitle": "Explore Our Use Cases",
     "description": "Discover how our technology is revolutionizing industries.",
     "compliance": {
+      "title": "Compliance",
       "Description": "Ensure legal compliance in your organization. With our technology, you can clearly and concisely convey legal requirements such as money laundering laws, supply chain laws, and new technologies like ChatGPT.",
       "currently": "Currently used in the following industries:",
       "Industries": {
@@ -52,6 +53,7 @@
       "VideoUrl": "/flexvid/compliance.mp4"
     },
     "softwareschulungen": {
+      "title": "Software Training",
       "Description": "Help your employees learn new software. With the help of our technologyYou create understandable trainings for corporate software up to Intranet forefficient flow.",
       "currently": "Industries: Public Administration, Machine Building, Health, Education",
       "Industries": {
@@ -62,6 +64,7 @@
       "VideoUrl": "/flexvid/softwareschulungen.mp4"
     },
     "produktschulungen": {
+      "title": "Product Training",
       "Description": "You reduce the working time and increase the product knowledge of your employees. With the help of our technology you can explain product properties and discuss them scientifically for Excellent customer service and sales.",
       "currently": "Industries: Machine manufacturing: Chemie",
       "Industries": {
@@ -72,6 +75,7 @@
       "VideoUrl": "/flexvid/produktschulungen.mp4"
     },
     "prozessschulungen": {
+      "title": "Process Training",
       "Description": "Optimize business processes through targeted training videos. With our help Technology creates clarity in your eyes, it is for support queries, ticket systems or network processes.",
       "currently": "Industries: Health, Public Administration, Education, Business Consulting",
       "Industries": {
@@ -82,6 +86,7 @@
       "VideoUrl": "/flexvid/prozessschulungen.mp4"
     },
     "InterneKommunikation": {
+      "title": "Internal Communication",
       "Description": "Improve your internal communication by watching engaging videos. With the help of our technology bring you corporate events or product presentations and marketing and sales precision to the point",
       "currently": "Industries: Mechanical Engineering, Electronics",
       "Industries": {
@@ -92,6 +97,7 @@
       "VideoUrl": "/flexvid/prozessschulungen.mp4"
     },
     "Andere": {
+      "title": "Other",
       "Description": " ",
       "currently": " ",
       "subclasses": {
@@ -125,7 +131,6 @@
     },
     "ViewCaseStudy": "View Case Study"
   },
-
   "Benefits": {
     "BENEFITS_TITLE": "What advantages do you have?",
     "BENEFITS_SUBTITLE": "BENEFIT",
@@ -180,7 +185,6 @@
     "feature4Title": "Various Language Styles",
     "feature4Description": "Enter content in bullet points and choose from various output styles tailored to your audience - from simple language to technical jargon.",
     "buttonTitle": "Discover more features"
-
   },
   "Case": {
     "TITLE": "STATEMENTS",
@@ -196,8 +200,8 @@
       "Des": "Description for Box 2...",
       "Username": "Christian Färber",
       "Userinfo": " Neuburg-Schrobenhausen",
-      "userdone":"Digitalization",
-      "done":"expert"
+      "userdone": "Digitalization",
+      "done": "expert"
     },
     "Box3": {
       "Name": "Another Case Study",
@@ -207,11 +211,11 @@
     }
   },
   "Press": {
-    "MORE_NEWS_BUTTON":"More news",
+    "MORE_NEWS_BUTTON": "More news",
     "TITLE": "PRESS",
     "SUBTITLE": "What the media says"
   },
-  "Carousel": {d
+  "Carousel": {
     "Slide1": {
       "Content": "In this episode, Antoine Leboyer meets Florian Scherl, founder of FAST AI Movies",
       "BlueText": "EP 28 Learn from an entrepreneur: Florian Scherl, Founder at Fast AI Movies"
@@ -233,7 +237,6 @@
     "TITLE": "SUPPORTER",
     "SUBTITLE": "Supported by"
   },
-
   "Actnow": {
     "TITLE": "ACT NOW",
     "SUBTITLE": "Ready for a digital transformation?",
@@ -241,7 +244,6 @@
     "CONTACT_BUTTON": "Contact Us",
     "FAQ_BUTTON": "Frequently Asked Questions"
   },
-
   "Flexvid": {
     "HEADLINE": "The leading AI software for employee training",
     "DESCRIPTION": "Generate high-quality e-learnings in a short time. Based on simple text input, the software creates a training video optimized for learning psychology to empower your employees."
@@ -253,7 +255,6 @@
   "feature": {
     "heading1": "FEATURES",
     "heading3": "Comprehensive features for an ideal result",
-
     "feature1": {
       "title": "Diverse export options",
       "description": "Download training courses as MP4, use the LMS-compatible file or share your content directly via URL. A PDF export for animations is also available."
@@ -681,7 +682,6 @@
     "last": "FAST Movies | Demo Day | AI Garage"
   },
   "blogTitle": "Blog",
-
   "section1": {
     "title": "Masterful Methods: Successful Learning in E-Learning",
     "placeholder": "Placeholder"
@@ -761,7 +761,6 @@
     "openmainmenu": "Open main menu",
     "buttontext": "Create a free demo video",
     "closemenu": "Close menu",
-
     "menus": {
       "1": "Products",
       "2": "  Case Studies",
@@ -770,7 +769,6 @@
       "5": " FAQ"
     }
   },
-
   "footer": {
     "quickFind": "Quick Find",
     "caseStudies": "Case Studies",

@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 // Component for rendering a circle with a number
-const CircleWithNumber = ({ number }) => (
+const CircleWithNumber = ({ number }: { number: number }) => (
   <div className="flex flex-col max-tab:mt-6 text-center max-xtab:hidden">
     <div className="bg-light400 w-[180px] h-[180px] rounded-full border-2 border-solid border-blue-700 flex items-center justify-center relative">
       <span className="text-primary text-[60px]">{number}</span>

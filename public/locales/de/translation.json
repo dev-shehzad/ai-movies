@@ -21,7 +21,6 @@
     "tick2": "3x schnellere Prozesse",
     "tick3": "Sofortiger Start – mit Erfolgsgarantie"
   },
-
   "features": {
     "sectionTitle": "FEATURES",
     "idealFeaturesTitle": "Welche Funktionen können Sie nutzen?",
@@ -77,14 +76,15 @@
     "CreateDemoVideo": "Demovideo kostenlos erstellen"
   },
   "weCase": {
-    "null":{
-"Description":"a",
-"currently":"w"
+    "null": {
+      "Description": "a",
+      "currently": "w"
     },
     "title": "USE CASES",
     "subtitle": "Wo können Sie unsere Videos einsetzen?",
     "description": "Unsere KI Software kann im Unternehmen für die verschiedensten Schulungszwecke verwendet werden, insbesondere eignet sich der Start in den folgenden Bereichen, um Ihr Unternehmen und Ihre Verwaltung zu entlasten:",
     "compliance": {
+      "title": "Compliance",
       "Description": "Sorgen Sie für Rechtskonformität in Ihrem Unternehmen. Mit unserer Technologie können Sie gesetzliche Anforderungen wie Geldwäschegesetze, Lieferkettengesetze und neue Technologien wie ChatGPT klar und prägnant vermitteln.",
       "currently": "Aktuell genutzt in folgenden Industrien:",
       "Industries": {
@@ -95,6 +95,7 @@
       "VideoUrl": "/flexvid/compliance.mp4"
     },
     "softwareschulungen": {
+      "title": "Softwareschulungen",
       "Description": "Erleichtern Sie Ihren Mitarbeitern das Erlernen neuer Software. Mit Hilfe unserer Technologie erstellen Sie verständliche Schulungen für Unternehmenssoftware bis zum Intranet für  effizientere Abläufe.",
       "currently": "Industries: Öffentliche Verwaltung, Maschinenbau, Gesundheit, Bildung",
       "Industries": {
@@ -105,6 +106,7 @@
       "VideoUrl": "/flexvid/softwareschulungen.mp4"
     },
     "produktschulungen": {
+      "title": "Produktschulungen",
       "Description": "Verkürzen Sie die Einarbeitungszeit und steigern Sie die Produktkenntnis Ihrer Mitarbeiter. Mit Hilfe unserer Technologie erklären Sie Produkteigenschaften und -vorteile anschaulich für überzeugenden Kundenservice und Vertrieb.",
       "currently": "Industries: Maschienenbau: Chemie",
       "Industries": {
@@ -115,6 +117,7 @@
       "VideoUrl": "/flexvid/produktschulungen.mp4"
     },
     "prozessschulungen": {
+      "title": "Prozessschulungen",
       "Description": "Optimieren Sie Geschäftsprozesse durch gezielte Schulungsvideos. Mit Hilfe unserer Technologie schaffen Sie Klarheit in Ihren Abläufen, sei es für Supportanfragen, Ticketsysteme oder Netzwerkprozesse.",
       "currently": "Industries: Gesundheit, Öffentliche Verwaltung, Bildung, Unternehmensberatungen",
       "Industries": {
@@ -125,6 +128,7 @@
       "VideoUrl": "/flexvid/prozessschulungen.mp4"
     },
     "InterneKommunikation": {
+      "title": "Interne Kommunikation",
       "Description": "Verbessern Sie die interne Kommunikation mit einprägsamen Videoinhalten. Mit Hilfe unserer Technologie bringen Sie Unternehmensevents oder Produktvorstellungen an Marketing und Vertrieb präzise auf den Punkt",
       "currently": "Industries: Maschienenbau, Elektronik",
       "Industries": {
@@ -135,6 +139,7 @@
       "VideoUrl": "/flexvid/prozessschulungen.mp4"
     },
     "Andere": {
+      "title": "Andere",
       "Description": " ",
       "currently": " ",
       "subclasses": {
@@ -162,8 +167,8 @@
       "Des": "“In der Einführung von KIUnterstützung für Schulungsvideos sehen wir großes Potential um unseren Mitarbeitenden die immer komplexeren Fachanwendungen und Prozessabläufe zu erklären. Wir sind stolz darauf, die Vorreiterrolle in der Digitalisierung zu übernehmen und anderen Landkreisen zu zeigen, wie sie von dieser Technologie profitieren können.“",
       "Username": "Christian Färber",
       "Userinfo": " Neuburg - Schrobenhausen",
-      "userdone":"Digitalisierung",
-      "done":"sbeauftragter"
+      "userdone": "Digitalisierung",
+      "done": "sbeauftragter"
     },
     "Box3": {
       "Name": "Eine weitere Fallstudie",
@@ -172,9 +177,8 @@
       "Userinfo": "Leiter Marketing & Kommunikation bei Schattdecor SE"
     }
   },
-
   "Press": {
-    "MORE_NEWS_BUTTON":"Mehr News",
+    "MORE_NEWS_BUTTON": "Mehr News",
     "TITLE": "PRESSE",
     "SUBTITLE": "Das sagen die Medien",
     "con1": "EP 28 Learn from an entrepreneur: Florian Scherl, Founder at Fast AI Movies In dieser Episode trifft Antoine Leboyer Florian Scherl, Gründer von FAST AI Movies"
@@ -201,7 +205,6 @@
     "TITLE": "SUPPORTER",
     "SUBTITLE": "Unterstützt von"
   },
-
   "Actnow": {
     "TITLE": "ACT NOW",
     "SUBTITLE": "Bereit für eine digitale Transformation?",
@@ -209,7 +212,6 @@
     "CONTACT_BUTTON": "Kontakt aufnehmen",
     "FAQ_BUTTON": "Häufige Fragen"
   },
-
   "Dataprivacy": {
     "TITLE": "DATA PRIVACY",
     "SUBTITLE": "Wie gewährleisten wir die Sicherheit Ihrer Daten?",
@@ -230,8 +232,14 @@
       "title": "Titre 1",
       "description": "Assurez la conformité légale dans l'entreprise. Avec l'aide de notre technologie, vous transmettez des exigences légales telles que la loi sur le blanchiment d'argent ou la loi sur la chaîne d'approvisionnement, ainsi que l'utilisation de nouvelles technologies comme ChatGPT, de manière claire et concise.",
       "industries": [
-        { "name": "Génie mécanique", "iconUrl": "pageone/wecase/wecase.png" },
-        { "name": "Génie électrique", "iconUrl": "pageone/wecase/wecase.png" },
+        {
+          "name": "Génie mécanique",
+          "iconUrl": "pageone/wecase/wecase.png"
+        },
+        {
+          "name": "Génie électrique",
+          "iconUrl": "pageone/wecase/wecase.png"
+        },
         {
           "name": "Cabinets de conseil en gestion",
           "iconUrl": "pageone/wecase/wecase.png"
@@ -244,8 +252,14 @@
       "title": "title2",
       "description": "Assurez la conformité légale dans l'entreprise. Avec l'aide de notre technologie, vous transmettez des exigences légales telles que la loi sur le blanchiment d'argent ou la loi sur la chaîne d'approvisionnement, ainsi que l'utilisation de nouvelles technologies comme ChatGPT, de manière claire et concise.",
       "industries": [
-        { "name": "Génie mécanique", "iconUrl": "pageone/wecase/wecase.png" },
-        { "name": "Génie électrique", "iconUrl": "pageone/wecase/wecase.png" },
+        {
+          "name": "Génie mécanique",
+          "iconUrl": "pageone/wecase/wecase.png"
+        },
+        {
+          "name": "Génie électrique",
+          "iconUrl": "pageone/wecase/wecase.png"
+        },
         {
           "name": "Cabinets de conseil en gestion",
           "iconUrl": "pageone/wecase/wecase.png"
@@ -258,8 +272,14 @@
       "title": "Produktschulungen",
       "description": "Assurez la conformité légale dans l'entreprise. Avec l'aide de notre technologie, vous transmettez des exigences légales telles que la loi sur le blanchiment d'argent ou la loi sur la chaîne d'approvisionnement, ainsi que l'utilisation de nouvelles technologies comme ChatGPT, de manière claire et concise.",
       "industries": [
-        { "name": "Génie mécanique", "iconUrl": "pageone/wecase/wecase.png" },
-        { "name": "Génie électrique", "iconUrl": "pageone/wecase/wecase.png" },
+        {
+          "name": "Génie mécanique",
+          "iconUrl": "pageone/wecase/wecase.png"
+        },
+        {
+          "name": "Génie électrique",
+          "iconUrl": "pageone/wecase/wecase.png"
+        },
         {
           "name": "Cabinets de conseil en gestion",
           "iconUrl": "pageone/wecase/wecase.png"
@@ -272,8 +292,14 @@
       "title": "Prozessschulungen",
       "description": "Assurez la conformité légale dans l'entreprise. Avec l'aide de notre technologie, vous transmettez des exigences légales telles que la loi sur le blanchiment d'argent ou la loi sur la chaîne d'approvisionnement, ainsi que l'utilisation de nouvelles technologies comme ChatGPT, de manière claire et concise.",
       "industries": [
-        { "name": "Génie mécanique", "iconUrl": "pageone/wecase/wecase.png" },
-        { "name": "Génie électrique", "iconUrl": "pageone/wecase/wecase.png" },
+        {
+          "name": "Génie mécanique",
+          "iconUrl": "pageone/wecase/wecase.png"
+        },
+        {
+          "name": "Génie électrique",
+          "iconUrl": "pageone/wecase/wecase.png"
+        },
         {
           "name": "Cabinets de conseil en gestion",
           "iconUrl": "pageone/wecase/wecase.png"
@@ -302,12 +328,10 @@
     },
     "ViewCaseStudy": "Case Study Ansehen"
   },
-
   "Flexvid": {
     "HEADLINE": "Die führende KI Software für Mitarbeiter Trainings",
     "DESCRIPTION": "Generieren Sie hochqualitative E-Learnings in kurzer Zeit. Basierend auf einfachem Textinput erzeugt die Software ein lernpsychologisch optimiertes Schulungsvideo um ihre Mitarbeiter zu befähigen."
   },
-
   "Webapp": {
     "TopHeading": "WEBAPP",
     "SubHeading": "Flexible Videoproduktion und Bearbeitung"
@@ -471,7 +495,6 @@
       "userinfo": "Head of Marketing & Communications bei Schattdecor SE"
     }
   },
-
   "unterseite": {
     "box1": {
       "name": "Produktkommunikation",
@@ -540,7 +563,6 @@
       "button1": "Créer une vidéo de démonstration gratuitement",
       "button2": "Nous contacter"
     },
-
     "act": {
       "title": "ACT NOW",
       "subtitle": "Bereit für einen eigene Story?",
@@ -569,7 +591,6 @@
   },
   "faq": {
     "faqHeading": "FAQ",
-
     "faq1": {
       "question": "Muss ich eine komplette Präsentation erstellen?",
       "answer": " 'Nein, Sie müssen lediglich einen kurzen Text, der aus einigen Stichpunkten besteht erstellen. Die Präsentation erstellt unsere KI Software für Sie."
@@ -757,7 +778,6 @@
     "title": "Platzhalter",
     "placeholder": "Platzhalter"
   },
-
   "blog": "Blog",
   "cont1": {
     "title": "Meisterhafte Methoden: Erfolgreiches Lernen im E-Learning",
@@ -833,7 +853,6 @@
       "5": "FAQ"
     }
   },
-
   "footer": {
     "quickFind": "Schnell Finden",
     "caseStudies": "Case Studies",
@@ -854,7 +873,6 @@
     "subscriptionNote": "Mit klicken auf Abonnieren stimmen Sie unseren Datenschutzbestimmungen zu",
     "subscribeButton": "Abonnieren"
   },
-
   "languages": {
     "english": "Englisch",
     "german": "Deutsch"

@@ -8,7 +8,7 @@ const Carousel = () => {
   const { t } = useTranslation();
   const sliderRef = useRef<Slider | null>(null);
 
-  const CustomNextArrow = (props: any) => (
+  const CustomNextArrow = (props: React.HTMLAttributes<HTMLDivElement>) => (
     <div
       className="slick-arrow custom-next-arrow absolute -right-16 top-[40%] "
       onClick={props.onClick}
@@ -19,7 +19,7 @@ const Carousel = () => {
     </div>
   );
 
-  const CustomPrevArrow = (props: any) => (
+  const CustomPrevArrow = (props: React.HTMLAttributes<HTMLDivElement>) => (
     <div className="slick-arrow custom-prev-arrow" onClick={props.onClick}>
       {/* <FaAngleLeft /> */}
       {/* You can customize the content inside the arrow here */}

@@ -15,130 +15,7 @@ const Wecase = () => {
   const { t } = useTranslation();
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
-  const leftBoxData = [
-    {
-      id: "compliance",
-      description: `${t("weCase.compliance.Description")}`,
-      currently: `${t("weCase.compliance.currently")}`,
-      industries: [
-        {
-          name: `${t("weCase.compliance.Industries.Maschinenbau")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-        {
-          name: `${t("weCase.compliance.Industries.Elektrotechnik")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-        {
-          name: `${t("weCase.compliance.Industries.Unternehmensberatungen")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-      ],
-      subclasses: [],
-      videoUrl: "/flexvid/vid.mp4",
-    },
-    {
-      id: "softwareschulungen",
-      description: `${t("weCase.softwareschulungen.Description")}`,
-      currently: `${t("weCase.softwareschulungen.currently")}`,
-      industries: [
-        {
-          name: `${t("weCase.compliance.Industries.Maschinenbau")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-        {
-          name: `${t("weCase.compliance.Industries.Elektrotechnik")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-        {
-          name: `${t("weCase.compliance.Industries.Unternehmensberatungen")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-      ],
-      subclasses: [],
-      videoUrl: "/flexvid/vid.mp4",
-    },
-    {
-      id: "produktschulungen",
-      description: `${t("weCase.produktschulungen.Description")}`,
-      currently: `${t("weCase.produktschulungen.currently")}`,
-      industries: [
-        {
-          name: `${t("weCase.compliance.Industries.Maschinenbau")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-        {
-          name: `${t("weCase.compliance.Industries.Elektrotechnik")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-        {
-          name: `${t("weCase.compliance.Industries.Unternehmensberatungen")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-      ],
-      subclasses: [],
-      videoUrl: "/flexvid/vid.mp4",
-    },
-    {
-      id: "prozessschulungen",
-      description: `${t("weCase.prozessschulungen.Description")}`,
-      currently: `${t("weCase.prozessschulungen.currently")}`,
-      industries: [
-        {
-          name: `${t("weCase.compliance.Industries.Maschinenbau")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-        {
-          name: `${t("weCase.compliance.Industries.Elektrotechnik")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-        {
-          name: `${t("weCase.compliance.Industries.Unternehmensberatungen")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-      ],
-      subclasses: [],
-      videoUrl: "/flexvid/vid.mp4",
-    },
-    {
-      id: "InterneKommunikation",
-      description: `${t("weCase.InterneKommunikation.Description")}`,
-      currently: `${t("weCase.InterneKommunikation.currently")}`,
-      industries: [
-        {
-          name: `${t("weCase.compliance.Industries.Maschinenbau")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-        {
-          name: `${t("weCase.compliance.Industries.Elektrotechnik")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-        {
-          name: `${t("weCase.compliance.Industries.Unternehmensberatungen")}`,
-          iconUrl: "pageone/wecase/wecase.png",
-        },
-      ],
-      videoUrl: "",
-    },
-    {
-      id: "Andere",
-      subclasses: [
-        {
-          id: "Bedienungsanleitungen",
-          name: `${t("weCase.Andere.subclasses.h1")}`,
-          des: `${t("weCase.Andere.subclasses.p1")}`,
-        },
-        {
-          id: "Gesundheitsschutzschulungen",
-          name: "Gesundheitsschutzschulungen",
-        },
-        {
-          id: "CSR-Schulungen:",
-          name: "CSR-Schulungen:",
-        },
-      ],
-    },
-  ];
+
   const [selectedCategoryData, setSelectedCategoryData] =
     useState<CategoryData>({
       description: `${t("weCase.compliance.Description")}`,
@@ -170,7 +47,7 @@ const Wecase = () => {
       // ... update other properties accordingly
     }));
   }, [selectedCategory, t]);
-  const handleCategoryChange = (categoryId) => {
+  const handleCategoryChange = (categoryId: string) => {
     setSelectedCategory((prevSelectedCategory) =>
       prevSelectedCategory === categoryId ? null : categoryId
     );
@@ -205,6 +82,8 @@ const Wecase = () => {
             iconUrl: "pageone/wecase/wecase.png",
           },
         ],
+        subclasses: [],
+        videoUrl: "/flexvid/vid.mp4",
         // ... update other properties accordingly
       });
     } else {
@@ -221,43 +100,43 @@ const Wecase = () => {
   const categories = [
     {
       id: "compliance",
-      name: "Compliance",
+      name: t("weCase.compliance.title"),
       videoUrl: "/flexvid/vid.mp4",
     },
     {
       id: "softwareschulungen",
-      name: "Softwareschulungen",
+      name: t("weCase.softwareschulungen.title"),
       videoUrl: "/flexvid/vid.mp4",
     },
     {
       id: "produktschulungen",
-      name: "Produktschulungen",
+      name: t("weCase.produktschulungen.title"),
       videoUrl: "/flexvid/vid.mp4",
     },
     {
       id: "prozessschulungen",
-      name: "Prozessschulungen",
+      name: t("weCase.prozessschulungen.title"),
       videoUrl: "/flexvid/vid.mp4",
     },
     {
       id: "InterneKommunikation",
-      name: "Interne Kommunikation",
+      name: t("weCase.InterneKommunikation.title"),
       videoUrl: "/flexvid/vid.mp4",
     },
     {
       id: "Andere",
-      name: "Andere",
+      name: t("weCase.Andere.title"),
       videoUrl: "/flexvid/vid.mp4",
     },
   ];
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [showControls, setShowControls] = useState(true);
 
   useEffect(() => {
-    let timeoutId;
+    let timeoutId: ReturnType<typeof setTimeout>;
     const videoContainer = videoRef.current;
-  
+
     const handleMouseMove = () => {
       setShowControls(true);
       clearTimeout(timeoutId);
@@ -265,30 +144,36 @@ const Wecase = () => {
         setShowControls(false);
       }, 2000);
     };
-  
-    videoContainer.addEventListener("mousemove", handleMouseMove);
-  
+
+    if (videoContainer) {
+      videoContainer.addEventListener("mousemove", handleMouseMove);
+    }
+
     // Add more event listeners as needed, for example:
     // videoContainer.addEventListener("play", () => setShowControls(true));
     // videoContainer.addEventListener("pause", () => setShowControls(true));
-  
+
     return () => {
-      videoContainer.removeEventListener("mousemove", handleMouseMove);
+      if (videoContainer) {
+        videoContainer.removeEventListener("mousemove", handleMouseMove);
+      }
       // Remove other event listeners if added
     };
   }, []);
 
   const handlePlayPause = () => {
     const video = videoRef.current;
-    if (isPlaying) {
-      video.play();
-    } else {
-      video.pause();
-    }
-    setIsPlaying(!isPlaying);
+    if (video) {
+      if (isPlaying) {
+        video.play();
+      } else {
+        video.pause();
+      }
+      setIsPlaying(!isPlaying);
 
-    // Show controls when play/pause button is clicked
-    setShowControls(true);
+      // Show controls when play/pause button is clicked
+      setShowControls(true);
+    }
   };
 
   return (
@@ -387,17 +272,14 @@ const Wecase = () => {
                   <h3
                     key={category.id}
                     className={`maintext border-b bg-light200
-                   border-light200 border-solid border-opacity-[0.2]  text-sm font-[Outfit-Regular] font-bold py-[20px] px-[15px] max-xtab:text-mf max-md:mx-auto cursor-pointer ${
-                     selectedCategory === category.id
-                       ? "bg-light-primary text-primary"
-                       : "bg-light400 text-primary"
-                   } ${index === 0 ? "rounded-t-[10px]" : ""} ${
-                      index === categories.length - 1 ? "rounded-b-[10px]" : ""
-                    } ${
-                      index > 0 && index < categories.length - 1
+                   border-light200 border-solid border-opacity-[0.2]  text-sm font-[Outfit-Regular] font-bold py-[20px] px-[15px] max-xtab:text-mf max-md:mx-auto cursor-pointer ${selectedCategory === category.id
+                        ? "bg-light-primary text-primary"
+                        : "bg-light400 text-primary"
+                      } ${index === 0 ? "rounded-t-[10px]" : ""} ${index === categories.length - 1 ? "rounded-b-[10px]" : ""
+                      } ${index > 0 && index < categories.length - 1
                         ? "rounded-none"
                         : ""
-                    }`}
+                      }`}
                     onClick={() => handleCategoryChange(category.id)}
                   >
                     {category.name}

@@ -7,15 +7,17 @@ import { FaPauseCircle } from "react-icons/fa";
 const Schrit = () => {
   // Accessing translation function and managing active step state
   const { t } = useTranslation();
-  const [activeStep, setActiveStep] = useState(0);
-  const videoRef = useRef(null);
+  const activeStepState = useState(0);
+  const activeStep = activeStepState[0];
+  const setActiveStep = activeStepState[1];
+  const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [showControls, setShowControls] = useState(true);
 
   useEffect(() => {
-    let timeoutId;
+    let timeoutId: ReturnType<typeof setTimeout>;
     const videoContainer = videoRef.current;
-  
+
     const handleMouseMove = () => {
       setShowControls(true);
       clearTimeout(timeoutId);
@@ -23,30 +25,36 @@ const Schrit = () => {
         setShowControls(false);
       }, 2000);
     };
-  
-    videoContainer.addEventListener("mousemove", handleMouseMove);
-  
+
+    if (videoContainer) {
+      videoContainer.addEventListener("mousemove", handleMouseMove);
+    }
+
     // Add more event listeners as needed, for example:
     // videoContainer.addEventListener("play", () => setShowControls(true));
     // videoContainer.addEventListener("pause", () => setShowControls(true));
-  
+
     return () => {
-      videoContainer.removeEventListener("mousemove", handleMouseMove);
+      if (videoContainer) {
+        videoContainer.removeEventListener("mousemove", handleMouseMove);
+      }
       // Remove other event listeners if added
     };
   }, []);
 
   const handlePlayPause = () => {
     const video = videoRef.current;
-    if (isPlaying) {
-      video.play();
-    } else {
-      video.pause();
-    }
-    setIsPlaying(!isPlaying);
+    if (video) {
+      if (isPlaying) {
+        video.play();
+      } else {
+        video.pause();
+      }
+      setIsPlaying(!isPlaying);
 
-    // Show controls when play/pause button is clicked
-    setShowControls(true);
+      // Show controls when play/pause button is clicked
+      setShowControls(true);
+    }
   };
 
   // Array of steps with details
@@ -89,7 +97,7 @@ const Schrit = () => {
   ];
 
   // Function to handle step click
-  const handleStepClick = (index) => {
+  const handleStepClick = (index: number) => {
     setActiveStep(index);
   };
 
@@ -103,9 +111,8 @@ const Schrit = () => {
               {/* Loop through each step */}
               {steps.map((step, index) => (
                 <div
-                  className={`one ${
-                    index === activeStep ? "active" : "inactive"
-                  } schritt${index + 1}`}
+                  className={`one ${index === activeStep ? "active" : "inactive"
+                    } schritt${index + 1}`}
                   key={index}
                   onClick={() => handleStepClick(index)}
                 >
@@ -113,45 +120,38 @@ const Schrit = () => {
                     {/* Step icon and lines */}
                     <div className="flex flex-col gap-[10px] justify-start items-center">
                       <div
-                        className={`icon bg-${
-                          step.color
-                        } w-[70px] h-[70px] rounded-[50%] flex items-center justify-center text-white ${
-                          index === activeStep ? "opacity-100" : "opacity-50"
-                        }`}
+                        className={`icon bg-${step.color
+                          } w-[70px] h-[70px] rounded-[50%] flex items-center justify-center text-white ${index === activeStep ? "opacity-100" : "opacity-50"
+                          }`}
                       >
                         <FaCheck size={40} />
                       </div>
                       {index !== steps.length - 1 && (
                         <div
-                          className={`line w-[2px] min-h-[50px] flex-1 bg-${
-                            step.color
-                          } ${
-                            index === activeStep ? "opacity-100" : "opacity-50"
-                          }`}
+                          className={`line w-[2px] min-h-[50px] flex-1 bg-${step.color
+                            } ${index === activeStep ? "opacity-100" : "opacity-50"
+                            }`}
                         ></div>
                       )}
                     </div>
                     {/* Step title, description, and content */}
                     <div className="ml-7 max-md:ml-4 pb-[30px]">
                       <h3
-                        className={`text-sm font-[Outfit-Bold] max-md:text-mf max-laptop:text-mf text-primary ${
-                          index === activeStep ? "opacity-100" : "opacity-50"
-                        }`}
+                        className={`text-sm font-[Outfit-Bold] max-md:text-mf max-laptop:text-mf text-primary ${index === activeStep ? "opacity-100" : "opacity-50"
+                          }`}
                       >
                         {step.schrit}
                       </h3>
                       <h3
-                        className={`text-sm font-[Outfit-Bold] max-md:text-mf max-laptop:text-mf ${
-                          index === activeStep ? "opacity-100" : "opacity-50"
-                        }`}
+                        className={`text-sm font-[Outfit-Bold] max-md:text-mf max-laptop:text-mf ${index === activeStep ? "opacity-100" : "opacity-50"
+                          }`}
                       >
                         {step.title}
                       </h3>
                       {index === activeStep && (
                         <p
-                          className={`text-sm font-[Outfit-Regular] max-md:text-mf leading-7 max-laptop:text-[15px] max-laptop:leading-4 max-md:leading-5 ${
-                            index === activeStep ? "opacity-100" : "opacity-50"
-                          }`}
+                          className={`text-sm font-[Outfit-Regular] max-md:text-mf leading-7 max-laptop:text-[15px] max-laptop:leading-4 max-md:leading-5 ${index === activeStep ? "opacity-100" : "opacity-50"
+                            }`}
                         >
                           {step.description}
                         </p>
@@ -173,24 +173,24 @@ const Schrit = () => {
                 autoPlay
                 loop
               ></video>
-               {showControls && (
-              <div
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
-                onClick={handlePlayPause}
-              >
-                {isPlaying ? (
-                  <FaPauseCircle
-                    color="#fff"
-                    className="bg-white text-[100px] max-tab:text-[50px]  rounded-[50%] bg-opacity-[0.7] opacity-[0.7]"
-                  />
-                ) : (
-                  <FaPlayCircle
-                    color="#fff"
-                    className=" text-[100px] max-tab:text-[50px] bg-white  rounded-[50%] bg-opacity-[0.7] opacity-[0.7]"
-                  />
-                )}
-              </div>
-            )}
+              {showControls && (
+                <div
+                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+                  onClick={handlePlayPause}
+                >
+                  {isPlaying ? (
+                    <FaPauseCircle
+                      color="#fff"
+                      className="bg-white text-[100px] max-tab:text-[50px]  rounded-[50%] bg-opacity-[0.7] opacity-[0.7]"
+                    />
+                  ) : (
+                    <FaPlayCircle
+                      color="#fff"
+                      className=" text-[100px] max-tab:text-[50px] bg-white  rounded-[50%] bg-opacity-[0.7] opacity-[0.7]"
+                    />
+                  )}
+                </div>
+              )}
             </div>
             <div className="button ">
               <button className="text-primary text-sm font-[Outfit-Bold] max-laptop:text-mf font-bold border-[2px] border-solid border-primary py-[10px] px-[15px] rounded-[10px] mt-6 max-md:text-[14px] whitespace-nowrap max-md:mx-auto">

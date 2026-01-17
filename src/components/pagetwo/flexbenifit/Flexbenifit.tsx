@@ -1,6 +1,13 @@
 import { FaCheck } from "react-icons/fa6";
 import { useTranslation } from "react-i18next";
-const BenefitItem = ({ t, text }) => (
+import { TFunction } from "i18next";
+
+interface BenefitItemProps {
+  t: TFunction;
+  text: string;
+}
+
+const BenefitItem = ({ t, text }: BenefitItemProps) => (
   <div className="flex items-center flex-row gap-2">
     <div className="w-[25px] h-[25px] rounded-[50%] border-2 border-solid border-blue-700">
       <span className="flex items-center justify-center">
